@@ -230,7 +230,7 @@ def train_FSIBP(train_data_loader, num_field_class, device):
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.2, patience=10, verbose=True)
     early_stopping = EarlyStopping(patience=20, verbose=False, path='trained_FSIBP.pt')
 
-    for epoch in range(50):
+    for epoch in range(100):
         model.train(True)
         for sentences, field_label, protocol_label, packet_group_label in train_data_loader:
             

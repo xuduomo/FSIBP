@@ -1,0 +1,47 @@
+Cannot classify packet type. Try setting Modbus/TCP Port preference to this destination or source port
+Length
+AND mask
+bit count
+byte count
+byte count (16-bit)
+Conformity Level
+Data
+diagnostic code
+event count
+message count
+Broadcast Received
+Character Overrun
+Communication Error
+Currently in Listen Only Mode
+Read Exception Sent
+Slave Abort Exception Sent
+Slave Busy Exception Sent
+Slave Program NAK Exception Sent
+Write Timeout Error Occurred
+status
+exception code
+function code
+MEI type
+More Follows
+Next Object ID
+Number of Objects
+Object ID
+Object String Value
+Object length
+OR mask
+Read Device ID
+read reference number
+read word count
+reference number
+reference number (32 bit)
+reference type
+unit identifier
+word count
+write reference number
+write word count
+Protocol Identifier
+Transaction Identifier
+Unit Identifier
+length
+protocol identifier
+transaction identifier

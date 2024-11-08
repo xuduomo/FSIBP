@@ -61,7 +61,7 @@ def field_data_process(sentence_list):
     
     return sentence_list, field_lengths, longest_field_length, sentence_list_size, sentence_length
 
-
+import pdb
 def eval_centroid(test_data_loader, model, centroid_list, device):
     correct = 0
     total = 0
@@ -70,6 +70,7 @@ def eval_centroid(test_data_loader, model, centroid_list, device):
     similarities_list = []
     with torch.no_grad():
         for sentences, field_label, _, _ in test_data_loader:
+            # pdb.set_trace()
             sentences, field_lengths, longest_field_len, sentences_size, sentence_len = field_data_process(sentences)
             sentences = torch.IntTensor(np.array(sentences))
             field_label = torch.LongTensor(np.array(field_label))
@@ -120,13 +121,28 @@ if __name__ == '__main__':
     test_protocol_name = args.test_protocol_name
 
     test_sentence_list, test_field_label_list, test_protocol_label_list, test_packet_group_label_list = generate_data_and_labels(test_protocol_name, fieldname_description_dir, description_label_path, pcapcsv_file_dir)
+    print("test sentences list",test_sentence_list)
+    print("test field label list",test_field_label_list)
+    print("test protocol label list",test_protocol_label_list)
+    print("test packet group label list",test_packet_group_label_list)
+
+    
+
     test_dataset = eval_pcapcsv_dataset(test_sentence_list, test_field_label_list, test_protocol_label_list, test_packet_group_label_list)
     test_data_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=custom_collate)
 
     with open('centroid_list.pkl', 'rb') as file:
         centroid_list = pickle.load(file)
-
+    print("centroid_list len:",len(centroid_list))
     trained_model = FSIBP_Net()
     trained_model.load_state_dict(torch.load('trained_FSIBP.pt'))
+    trained_model = trained_model.to(device)
+
+    device = next(trained_model.parameters()).device
+
+    if device.type == 'cpu':
+        print("The model is running on CPU.")
+    elif device.type == 'cuda':
+        print("The model is running on GPU.")
     trained_model.eval()
     eval_centroid(test_data_loader, trained_model, centroid_list, device)

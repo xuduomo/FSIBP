@@ -1,0 +1,11 @@
+dnp3.start_raw,dnp3.len_raw,dnp3.ctl_raw,dnp3.addr_raw,dnp3.addr_raw,dnp3.hdr.CRC_raw,dnp3.tr.ctl_raw,dnp3.al.ctl_raw,dnp3.al.func_raw,dnp3.al.obj_raw
+0564,0b,c4,0a00,0100,acd1,c4,c3,1,3c0206
+0564,0b,c4,0a00,0100,acd1,c5,c4,1,3c0206
+0564,0b,c4,0a00,0100,acd1,c6,c5,1,3c0206
+0564,0b,c4,0a00,0100,acd1,c7,c6,1,3c0206
+0564,0b,c4,0a00,0100,acd1,c8,c7,1,3c0206
+0564,0b,c4,0a00,0100,acd1,c9,c8,1,3c0206
+0564,0b,c4,0a00,0100,acd1,ca,c9,1,3c0206
+0564,0b,c4,0a00,0100,acd1,cb,ca,1,3c0206
+0564,0b,c4,0a00,0100,acd1,cc,cb,1,3c0206
+0564,0b,c4,0a00,0100,acd1,cd,cc,1,3c0206

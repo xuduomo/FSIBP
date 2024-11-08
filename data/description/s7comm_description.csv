@@ -1,0 +1,911 @@
+AckState coming
+AckState going
+Associated value(s)
+Event coming
+Event going
+Event last changed
+Reserved
+EventID
+EventState
+Function identifier
+Alarm message
+Message object
+Number of associated values
+Number of message objects
+Alarmtype
+Complete data length
+Length of dataset
+Querytype
+Unknown
+Unknown/Reserved (1)
+Unknown/Reserved (2)
+SCAN unknown 1
+SCAN unknown 2
+SIG_1
+SIG_2
+SIG_3
+SIG_4
+SIG_5
+SIG_6
+SIG_7
+SIG_8
+State
+Timestamp message coming
+Timestamp message going
+ADD length
+Author
+Block count
+Block language
+Block number
+Block Security
+Block type
+Block checksum
+Code timestamp
+Family
+Block flags (unknown)
+Name (Header)
+Version (Header)
+Interface timestamp
+Length load memory
+Localdata length
+MC7 code length
+Constant 1
+Constant 3
+Length of Info
+Unknown byte(s) blockinfo
+Unknown blockinfo 2
+Reserved 1
+Reserved 2
+SSB length
+Subblk type
+CPU diagnostic message
+DatID
+Event ID
+Event class
+Entry in diagnostic buffer
+Event entering state
+External error
+Internal error
+Event number
+INFO1 Additional information 1
+INFO2 Additional information 2
+OB number
+Priority class
+Alarm type
+Subscribed events
+Alarms
+Mode-transition
+System-diagnostics
+Userdefined
+Reserved/Unknown
+Result
+Username
+TIS Data
+Function
+Interval time factor
+Interval timebase
+Job-ID
+Data
+Block number must be a string containing an integer
+Unknown char before Block type
+Destination filesystem
+Errorcode
+File identifier
+Length of load memory
+Length of MC7 code
+Length part 1
+Length part 2
+Unknown char before load mem
+Unknown byte(s) in blockcontrol
+UploadID
+Block info must be a string containing an integer
+Filesystem
+DRR Data
+Fill byte
+Item
+Length
+NC file data
+NC file length
+NC file path
+NC file timestamp
+Number of telegrams sent without acknowledge
+Argument
+Number of blocks
+Part 1 unknown bytes
+Unknown byte
+PI (program invocation) Service
+Return code
+Transport size
+S7 Timestamp
+S7 Timestamp - Day
+S7 Timestamp - Hour
+S7 Timestamp - Milliseconds
+S7 Timestamp - Minute
+S7 Timestamp - Month
+S7 Timestamp - Reserved
+S7 Timestamp - Second
+S7 Timestamp - Weekday
+S7 Timestamp - Year 1
+S7 Timestamp - Year 2
+SZL data tree
+SZL-ID
+Diagnostic type
+SZL partial list count
+Number of the partial list extract
+SZL partial list length in bytes
+Number of the partial list
+SZL-Index
+Registers
+ACCU1
+ACCU2
+AR1
+AR2
+DB1
+DB2
+STW
+Answer size
+Ask header size
+Ask size
+Address
+Number of lines
+Step address counter (SAZ)
+Start address AWL
+Unknown byte(s) diagdata
+S7COMM Fragment
+Fragment count
+Defragmentation error
+Multiple tail fragments found
+Fragment overlap
+Conflicting data in fragment overlap
+Fragment too long
+S7COMM Fragments
+Header
+Data length
+Error class
+Error code
+Parameter length
+Protocol Data Unit Reference
+Protocol Id
+Redundancy Identification (Reserved)
+ROSCTR
+OB 8x Fault flags
+OB Slot
+OB Specifier
+OB Type of alarm
+OB Type of block fault occurred in
+OB Delay time (DTIME) input to SRT_DINT instruction
+OB Class of event causing error
+OB Number of event causing error
+OB Number of OB causing error
+OB Priority of OB causing error
+OB Error information on event
+OB Event class
+OB Frequency of execution (ms)
+OB Number of block that programming fault occurred in
+OB Fault identification code
+OB Specific register that caused fault
+OB Length of information
+OB IO flags
+OB Maximum cycle time of OB (ms)
+OB Base address of module initiating interrupt
+OB Type of module
+OB Module type with point fault
+OB Memory address where access error occurred
+OB Memory area where access error occurred
+OB Minimum cycle time of OB (ms)
+OB Number
+OB Period of execution
+OB Phase offset (ms)
+OB Address of interrupt point on module
+OB Cycle time of previous OB scan (ms)
+OB Address in block where programming fault occurred
+OB Priority
+OB Rack / CPU number
+OB Number of rack that has module with point fault
+OB Racks in fault
+OB Reserved 1
+OB Reserved 2
+OB Reserved 3
+OB Reserved 4
+OB Scan 1
+OB Identifier input (SIGN) attached to SRT_DINT
+OB Event that caused CPU to stop
+OB Start info
+OB Method of startup
+OB Software programming fault
+Parameter
+Filename
+Filename Length
+Function Status
+Error
+More data following
+Blocklength
+Blocklengthstring Length
+Parameter data
+Bit Address
+Byte Address
+Number (T/C/BLOCK)
+Area
+DB number
+Bytes to read
+Number of areas
+Start address
+DriveES Parameter index
+DriveES Parameter number
+DriveES Unknown 1
+DriveES Unknown 2
+DriveES Unknown 3
+NCK Area
+NCK Area/Unit
+NCK Column number
+NCK Line number
+NCK Linecount
+NCK Module
+NCK Unit
+Syntax Id
+Variable specification
+Length of following address specification
+Item count
+Max AmQ (parallel jobs with ack) called
+Max AmQ (parallel jobs with ack) calling
+Current mode
+PDU length
+Addressidentification
+Blsync
+CE-Number
+Channel Number
+Class
+Compare String
+Datablock Number
+Destination-Filename
+Direction
+DNr
+Duplo Number
+Edge Number
+Editor Window Name
+Factor
+Findmode
+First Column Number
+First Row Number
+Function Number
+Half places down
+Half places left
+Half places right
+Half places up
+Increment Number
+Interrupt Number
+Kind of search
+Last Column Number
+Last Row Number
+Liftfast
+Line Number
+Magnr
+Magazine Number Destination
+Magazine Number from
+Magazine Number Source
+Magazine Number to
+Magazine Reference Number
+Mode
+Monitoring mode
+New Filename
+Old Filename
+OnOff
+Password
+Password Level
+Place Number
+Place Number Destination
+Place Number from
+Place Number Source
+Place Number to
+Place Reference Number
+Place type index
+Priority
+Protection
+Search direction
+Seek pointer
+Semaphore Value
+Semaphor Value
+Skip Count
+Source-Filename
+Spindle Number
+String length
+Switch
+TNr
+Tool ID
+Tool Name
+Tool Number
+Tool Status
+Wear Group
+Search Strategy
+Window size
+WZ-Nr
+Parameter block
+Parameter block length
+Unknown bytes
+Subitem
+Block flags
+Linked
+Non Retain
+Standard block
+Data unit reference number
+Function group
+Parameter head
+Last data unit
+Method (Request/Response)
+Sequence number
+Subfunction
+SZL data
+SZL partial list data
+Type
+PBC AR_SEND AR_ID
+PBC AR_SEND LEN
+PBC AR_SEND Returncode
+PBC AR_SEND unknown
+PBC BSEND/BRECV unknown
+PBC BSEND LEN
+PBC BSEND R_ID
+PBC unknown
+PBC USEND R_ID
+PBC USEND unknown 1
+PBC USEND unknown 2
+Rdrec Data
+Rdrec ID
+Rdrec Index
+Rdrec Len
+Rdrec Mlen
+Rdrec reserved
+Rdrec Status
+Rdrec Status Len
+Reassembled in
+Reassembled S7COMM length
+Module type class
+Number of the SZL partial list extract
+Number of the SZL partial list
+SZL ID that exists
+belegt1 (Size of the volatile memory area being used)
+belegt2 (Size of the non-volatile memory area being used)
+ber1 (Size of the volatile memory area in bytes)
+ber2 (Size of the non-volatile memory area in bytes)
+block1 (Largest free block in the volatile memory area)
+block2 (Largest free block in the non-volatile memory area)
+Code (Memory type)
+Granu
+Index
+Mode (Logical mode of the memory)
+Code and data separate (for work memory)
+Code and data together (for work memory)
+Mixed memory area
+Non-volatile memory area
+Volatile memory area
+"Size (Total size of the selected memory, total of area 1 and area 2)"
+Name (Name of the PLC)
+Name (Name of the module)
+Tag (Plant identification of the module)
+Copyright
+Serialn (Serialnumber of the module)
+Cputypname (Module type namee)
+Sn_mc/mmc (Serial number of the Memory Card/Micro Memory Card)
+Manufacturer_id
+Profile_id
+Profile_spec_typ
+Oem_add_id (OEM additional ID)
+Oem_copyright_string (OEM Copyright ID)
+Oem_id (OEM ID)
+Loc_id (Location designation)
+Actual type
+Adr1
+Adr2
+Ber_bgbr (Area ID/module width)
+Area ID
+Module width
+I/O status
+CiR event busy
+Data ID for logical address
+Module disabled
+Module error
+Module exists
+Module in local bus segment
+Module not available
+Station error
+Expected type
+Logadr
+Reserved (number of actually existing interface modules)
+Reserved (number of interface modules)
+status_0
+status_1
+status_10
+status_11
+status_12
+status_13
+status_14
+status_15
+status_2
+status_3
+status_4
+status_5
+status_6
+status_7
+status_8
+status_9
+status_0 (Group information)
+Status
+anz (Maximum number of communication connections)
+mkbus_bps (Maximum data rate of the communication bus)
+mpi_bps (Maximum data rate of the MPI in hexadecimal format)
+pdu (Maximum PDU size in bytes)
+res (Reserved)
+aseg
+erg par (System data with no relevance)
+erg pat 1 (System data with no relevance)
+erg pat 2 (System data with no relevance)
+eseg
+force (Number of modifiable Variables)
+funkt_0
+Block status
+Clear cyclic reading
+Force selection
+Output BSTACK
+Output ISTACK
+Output LSTACK
+Time measurement from ... to ...
+Variable status
+funkt_1
+Bit memory
+Breakpoint
+Delete job
+Disable job
+Enable job
+Exit HOLD
+Force
+Memory reset
+Modify variable
+Outputs
+funkt_2
+Block status v2
+Flash LED
+Read job
+Read job list
+Replace job
+S7 counter
+funkt_3 (Reserved)
+funkt_4 (Reserved)
+funkt_5 (Reserved)
+pfad (System data with no relevance)
+systrig (System data with no relevance)
+tiefe (System data with no relevance)
+time
+trgbed (System data with no relevance)
+trgereig_0 (Permitted trigger events)
+After code address
+Code address area
+Data address
+Immediately
+Mode transition RUN-STOP
+System checkpoint main cycle end
+System checkpoint main cycle start
+System trigger
+trgereig_1 (Permitted trigger events)
+Before code address
+Data address area
+Local data address
+Local data address area
+Range trigger
+"trgereig_2 (Permitted trigger events, reserved)"
+anz (Maximum number of cyclic read jobs)
+data (Maximum size of consistently readable data)
+Initialize cyclic reading (start explicitly)
+Initialize cyclic reading (start implicitly)
+Read once
+Start cyclic reading
+Stop cyclic reading
+Write once
+Inputs
+Peripheral I/Os
+Data record
+User DB
+funkt_3
+High speed counter
+IEC counter
+IEC timer
+S7 timer
+per max (Maximum period for cyclic read jobs (n x 100 ms))
+per min (Minimum period for cyclic read jobs (n x 100 ms))
+"del (Maximum number of uninterruptable, deletable blocks)"
+Chain (all copied)
+Chain (list)
+Copy
+Delete (list)
+Directory (hierarchy 1)
+Directory (hierarchy 2)
+Directory (hierarchy 3)
+Assign parameters when chaining
+Delete *.*
+LOAD function when exchanging data with CFBs
+Upload on PG
+Compress (external)
+Firmware update (using communication)
+Load user program (EPROM)
+Load user program (RAM)
+Save user program (all)
+Save user program (EPROM)
+Save user program (RAM)
+Set RAM memory mode
+Assign parameters when evaluating memory card
+Assign parameters to newly plugged in modules
+Set EPROM memory mode
+funkt_4
+Assign parameters in complete restart
+Assign parameters when loading user program
+Assign parameters in restart
+Compress (SFC25 COMPRESS)
+Evaluate memory card after switch setting
+Firmware update using memory card
+funkt_6 (Reserved)
+funkt_7 (Reserved)
+hoch (Maximum number of simultaneous upload procedures)
+kett (Maximum number of blocks chained in one job)
+kop (Maximum number of copied blocks)
+ver (Maximum size (in bytes) of shiftable blocks in RUN)
+anz_ein (Maximum number of entries in the diagnostic buffer)
+anz_mel (Maximum number of process control group messages)
+anz_sen (Maximum number of diagnostic data sinks)
+funkt_0 (Available diagnostic functions)
+Diagnostic buffer exists
+Diagnostic interrupt exists on module
+Evaluating diagnostic interrupts
+Sending system diagnostic data possible
+Sending user-defined diagnostic messages possible
+Sending VMD status possible
+funkt_1 (Reserved)
+funkt_2 (Reserved)
+Bit 5: BRCV
+Bit 4: BSEND
+Bit 6: GET
+Bit 7: PUT
+Bit 3: RCV
+Bit 2: SEND
+Bit 1: URCV
+Bit 0: USEND
+Bit 1: ABORT
+Bit 2: INITIATE
+Bit 0: PRINT
+Bit 5: RESUME
+Bit 3: START
+Bit 6: STATUS
+Bit 4: STOP
+Bit 7: USTATUS
+Bit 5: ALARM
+Bit 6: ALARM_8
+Bit 7: ALARM_8P
+Bit 3: LOAD
+Bit 4: LOAD_ME
+Bit 0: PI
+Bit 1: READ
+Bit 2: WRITE
+Bit 1: AR_SEND
+Bit 2: Reserved
+Bit 3: Reserved
+Bit 4: Reserved
+Bit 5: Reserved
+Bit 6: Reserved
+Bit 7: Reserved
+Bit 0: NOTIFY
+funkt_5
+funkt_6
+Bit 7: I_ABORT
+Bit 5: I_GET
+Bit 6: I_PUT
+Bit 4: X_ABORT
+Bit 2: X_GET
+Bit 3: X_PUT
+Bit 1: X_RCV
+Bit 0: X_SEND
+funkt_7
+Bit 2: ALARM_S
+Bit 3: ALARM_SC
+Bit 1: ALARM_SQ
+Bit 6: CONTROL
+Bit 5: DIS_MSG
+Bit 4: EN_MSG
+Bit 0: SCAN_SND
+max_inst (Maximum number of instances for communication SFBs for configured connections)
+max_sd_al8p (Maximum number of send parameters for ALARM_8P)
+max_sd_empf (Maximum number of send and receive parameters per block)
+res1 (Reserved)
+res2 (Reserved)
+res3 (Reserved)
+schnell (Fast reaction yes/no)
+verb_prog (Connection programmed (yes=1) possible)
+verb_proj (Connection configured (yes=1) possible)
+zugtyp_0
+zugtyp_1
+zugtyp_2
+zugtyp_3
+zugtyp_4
+zugtyp_5
+zugtyp_6
+zugtyp_7
+alarm (Communication interrupt yes/no)
+ek_1 (Maximum number of GD packets to be received per GD circle of the CPU)
+ek_2 (Maximum number of GD packets to be received for all GD circles of the CPU)
+funkt_0 (Available GD functions)
+Cyclic
+GD_RCV
+GD_SND
+kons (Consistent length in bytes)
+kreis (Maximum number of GD groups of the CPU)
+len_1 (Maximum length of a GD packet)
+len_2 (Maximum length of a GD packet header)
+len_3 (Length of the object description header)
+mode
+Communication bus
+Party line/MPI
+obj_0 (Addressable objects)
+C
+DB
+M
+PII
+PIQ
+T
+obj_1 (Reserved)
+proj (Re-configuration possible in RUN yes/no)
+rec (Minimum scan rate for receiving)
+sen (Minimum scan rate for sending)
+sk_1 (Maximum number of GD packets to be sent per GD circle of the CPU)
+sk_2 (Maximum number of GD packets to be sent for all GD circles of the CPU)
+time (Time monitoring when receiving yes/no)
+address (Address register added to basic time when AR 1 or AR 2 addressed) time value
+address (Address register added to basic time when AR 1 or AR 2 addressed) time base
+"akku (Accumulators added to basic time when ACCU 1, 2 addressed) time value"
+"akku (Accumulators added to basic time when ACCU 1, 2 addressed) time base"
+ba_stali1 (Basic time for a status list ID of group 1) time value
+ba_stali1 (Basic time for a status list ID of group 1) time base
+ba_stali2 (Basic time for a status list ID of group 2) time value
+ba_stali2 (Basic time for a status list ID of group 2) time base
+ba_stali3 (Basic time for a status list ID of group 3) time value
+ba_stali3 (Basic time for a status list ID of group 3) time base
+db (Time for one variable address 'data block DB') time value
+db (Time for one variable address 'data block DB') time base
+dbreg (DB register added to basic time when DB register addressed) time value
+dbreg (DB register added to basic time when DB register addressed) time base
+ea (Time for one variable address 'input' or 'output') time value
+ea (Time for one variable address 'input' or 'output') time base
+last_1 (Basic overhead for status block) time value
+last_1 (Basic overhead for status block) time base
+last_2 (Basic overhead for monitor variables) time value
+last_2 (Basic overhead for monitor variables) time base
+last_3 (Basic overhead for modify variables) time value
+last_3 (Basic overhead for modify variables) time base
+ld (Time for one variable address 'ADB' or 'local data') time value
+ld (Time for one variable address 'ADB' or 'local data') time base
+merker (Time for one variable address 'memory bit') time value
+merker (Time for one variable address 'memory bit') time base
+reg (Time for one variable address 'register') time value
+reg (Time for one variable address 'register') time base
+tz (Time for one variable address 'timer' or 'counter') time value
+tz (Time for one variable address 'timer' or 'counter') time base
+abw_5v (Clock deviation in ms/day in 5V operation)
+abw_puf (Clock deviation in ms/day when backed up)
+anz_bsz (Number of run-time meters)
+sync_k (Time synchronization C bus)
+Capable of being master for time-of-day synchronization
+Time-of-day synchronization neutral
+Capable of being slave for time-of-day synchronization
+sync_k (Time synchronization via MFI)
+sync_mpi (Time synchronization via MPI)
+ber_meld_1
+Bit 3: DB
+Bit 2: M
+Bit 0: PII
+Bit 1: PIQ
+ber_meld_2
+ber_zus_1
+ber_zus_2
+funk_1
+Bit 0: Group status messages exist
+"Bit 2: NOTIFY, ALARM, ALARM_8P, ALARM_8, (multicast) possible"
+Bit 1: Scan possible
+Bit 3: Sending archive data possible
+funk_2
+typ_zus_1
+Bit 6: Array of char[16]
+Bit 0: Bit
+Bit 1: Byte
+Bit 5: Counter
+Bit 3: DWord
+Bit 4: Timer
+Bit 2: Word
+typ_zus_2
+auf (Current number of connections established by proj)
+free (Number of free connections)
+last (Maximum selected communication load of the CPU in %)
+proj (Current number of configured connections)
+res os (Guaranteed number of OS connections)
+res pg (Guaranteed number of PG connections)
+u os (Current number of OS connections)
+u pg (Current number of PG connections)
+used (Number of free connections used)
+anz (Number of initialized test and installation jobs)
+bart_sch (Position of the mode switch)
+crst_wrst (Setting of the CRST/WRST switch)
+ken_f (Reserved)
+ken_rel (ID for valid version identifications/checksums)
+ken_ver1_awp (Version ID/checksum 1 of the user program)
+ken_ver1_hw (Version ID/checksum 1 of the hardware configuration)
+ken_ver2_awp (Version ID/checksum 2 of the user program)
+ken_ver2_hw (Version ID/checksum 2 of the hardware configuration)
+"key (Protection level for the key switch, possible values: 1,2 or 3)"
+"param (Assigned protection level, possible values: 0, 1, 2 or 3)"
+"real (Valid protection level of the CPU, possible values: 1, 2 or 3)"
+erw (Extended functions)
+ltmerz (Generation of status message active)
+moeg (Sending user-defined diagnostic messages currently possible)
+send (Automatic sending)
+anz_inst (Number of loaded SFB instances)
+anz_multicast (Number of blocks used for multicast)
+anz_schnell (Reserved)
+used_0 (Blocks used)
+used_1 (Blocks used)
+used_2 (Blocks used)
+used_3 (Blocks used)
+used_4 (Blocks used)
+used_5 (Blocks used)
+used_6 (Blocks used)
+used_7 (Blocks used)
+clock 0 (Run-time meter 0: Time in hours)
+clock 1 (Run-time meter 1: Time in hours)
+clock 2 (Run-time meter 2: Time in hours)
+clock 3 (Run-time meter 3: Time in hours)
+clock 4 (Run-time meter 4: Time in hours)
+clock 5 (Run-time meter 5: Time in hours)
+clock 6 (Run-time meter 6: Time in hours)
+clock 7 (Run-time meter 7: Time in hours)
+korr (Correction factor for time-of-day)
+time (Current date and time)
+zykl (Cycle time of the synchronization frames)
+bszl_0 (Status of run-time meter)
+bszl_1 (Reserved)
+bszu_0 (Overflow of run-time meter)
+bszu_1 (Reserved)
+clock 10 (Run-time meter 10: Time in hours)
+clock 11 (Run-time meter 11: Time in hours)
+clock 12 (Run-time meter 12: Time in hours)
+clock 13 (Run-time meter 13: Time in hours)
+clock 14 (Run-time meter 14: Time in hours)
+clock 15 (Run-time meter 15: Time in hours)
+clock 8 (Run-time meter 8: Time in hours)
+clock 9 (Run-time meter 9: Time in hours)
+maxanz_arch (Maximum number of archives for 'Send Archive')
+ae
+anlinfo1
+anlinfo2
+anlinfo3
+anlinfo4
+bzu-id
+Previous mode
+Requested mode
+ereig
+API (Configured Application Profile)
+CiR event active
+Module disrupted
+Module maintenance demand
+Module maintenance required
+Problem on station
+Expected/actual identifier
+logadr (Address of the module)
+logadr (Area)
+Offset (Offset in the user data address range of the associated module)
+Reserve 1
+Slot (Slot number)
+Solltyp1 (Expected Type: Manufacturer no. or profile identification)
+Solltyp2 (Device)
+Solltyp3 (Sequential number or profile index)
+Solltyp4_5 (Submodule identification)
+Solltyp6_7 (Interface module identification)
+Station (Rack no./station number/device number)
+Subslot (Interface module slot)
+System (Identifier for the central module/DP master system ID /PROFINET IO system ID)
+MlfB (Order number of the module)
+Ausbe (Release of the PG description file)
+Ausbg (Version of the module or release of the operating system)
+BGTyp (Module type ID)
+Characteristic
+Station
+Quantity (Number of elements of the system area)
+Reman (Number of retentive elements)
+MaxAbl (Maximum length of the work memory part of a block in bytes)
+MaxAnz (Maximum number of blocks of the type)
+MaxLng (Maximum total size of the object to be loaded in Kbytes)
+al1 (Processing identifiers)
+Entry in diagnostic buffer locked
+Interrupt event is caused by parameters disabled
+Interrupt event as per SFC 39 locked
+Interrupt OB is loaded
+Interrupt OB is locked by TIS
+Interrupt source is active
+al2 (Reaction with not loaded/locked OB)
+Generate interrupt event error
+CPU goes into STOP mode
+Interrupt only discarded
+Lock interrupt source
+al3 (Discarded by TIS functions)
+Start info for the given OB
+cpu_led_id
+"Bit 3: CPU Type (0=Standby, 1=Master)"
+Byte 1: LED ID
+"Bits 0, 1, 2: Rack number"
+Flashing status of the LED
+Status of the LED
+1200 sym root area 1
+1200 sym root area 2
+1200 sym root area 2 unknown
+1200 sym CRC
+1200 sym root DB number
+LID flags
+1200 sym Reserved
+Substructure
+Value
+Register ACCU1
+Register ACCU2
+Register ACCU3
+Register ACCU4
+TIS Parameter 4 - Answer size
+Register AR1
+Register AR2
+Blockstatus data
+Blockstat flags
+Blockstatus Reserved / Unknown
+Breakpoint code address
+Breakpoint block number
+Breakpoint block type
+Breakpoint Reserved / Unknown
+BSTACK nesting depth
+BSTACK Reserved / Unknown
+Call condition
+Call condition code address
+Call condition block number
+Call condition block type
+Call environment setup
+Continued code address
+Continued block number
+Continued block type
+TIS Data size
+Register DB1 block number
+Register DB1 content type
+Register DB2 block number
+Register DB2 content type
+Exit HOLD Reserved / Unknown
+Exit HOLD state until
+Interrupted code address
+Interrupted block number
+Interrupted block type
+Interrupted priority class
+ISTACK Reserved / Unknown
+Job function
+Job Reserved / Unknown
+Job reference sequence number
+Localdata stack data
+LSTACK Reserved / Unknown
+Localdata stack size
+TIS Parameter 1
+TIS Parameter 2 - Trigger type
+TIS Parameter 3 - Trigger frequency
+TIS Parameter 5
+TIS Parameter 6
+TIS Parameter 7
+TIS Parameter 8
+TIS Parameter 9
+TIS Parameter
+TIS Parameter size
+TIS Response Parameter 1
+TIS Response Parameter 2
+Register STW
+Bitposition
+Memory area
+Repetition factor
+Startaddress
+TIS Parameter 10 - Trigger event
+Unknown byte(s) varstat
+Byte count
+Type of data
+Unknown byte(s) vartab

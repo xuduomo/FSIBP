@@ -1,0 +1,1161 @@
+s7comm.alarm.ack_state.coming,AckState coming
+s7comm.alarm.ack_state.going,AckState going
+s7comm.alarm.associated_value,Associated value(s)
+s7comm.alarm.event.coming,Event coming
+s7comm.alarm.event.going,Event going
+s7comm.alarm.event.lastchanged,Event last changed
+s7comm.alarm.event.reserved,Reserved
+s7comm.alarm.event_id,EventID
+s7comm.alarm.eventstate,EventState
+s7comm.alarm.function,Function identifier
+s7comm.alarm.message,Alarm message
+s7comm.alarm.message_object,Message object
+s7comm.alarm.nr_add_values,Number of associated values
+s7comm.alarm.nr_objects,Number of message objects
+s7comm.alarm.query.alarmtype,Alarmtype
+s7comm.alarm.query.complete_length,Complete data length
+s7comm.alarm.query.dataset_length,Length of dataset
+s7comm.alarm.query.querytype,Querytype
+s7comm.alarm.query.resunknown1,Unknown
+s7comm.alarm.query.unknown1,Unknown/Reserved (1)
+s7comm.alarm.query.unknown2,Unknown/Reserved (2)
+s7comm.alarm.scan.unknown1,SCAN unknown 1
+s7comm.alarm.scan.unknown2,SCAN unknown 2
+s7comm.alarm.signal.sig1,SIG_1
+s7comm.alarm.signal.sig2,SIG_2
+s7comm.alarm.signal.sig3,SIG_3
+s7comm.alarm.signal.sig4,SIG_4
+s7comm.alarm.signal.sig5,SIG_5
+s7comm.alarm.signal.sig6,SIG_6
+s7comm.alarm.signal.sig7,SIG_7
+s7comm.alarm.signal.sig8,SIG_8
+s7comm.alarm.state,State
+s7comm.alarm.timestamp_coming,Timestamp message coming
+s7comm.alarm.timestamp_going,Timestamp message going
+s7comm.blockinfo.add_len,ADD length
+s7comm.blockinfo.author,Author
+s7comm.blockinfo.block_count,Block count
+s7comm.blockinfo.block_lang,Block language
+s7comm.blockinfo.block_num,Block number
+s7comm.blockinfo.blocksecurity,Block Security
+s7comm.blockinfo.blocktype,Block type
+s7comm.blockinfo.checksum,Block checksum
+s7comm.blockinfo.code_timestamp,Code timestamp
+s7comm.blockinfo.family,Family
+s7comm.blockinfo.flags,Block flags (unknown)
+s7comm.blockinfo.headername,Name (Header)
+s7comm.blockinfo.headerversion,Version (Header)
+s7comm.blockinfo.interface_timestamp,Interface timestamp
+s7comm.blockinfo.load_mem_len,Length load memory
+s7comm.blockinfo.localdata_len,Localdata length
+s7comm.blockinfo.mc7_len,MC7 code length
+s7comm.blockinfo.res_const1,Constant 1
+s7comm.blockinfo.res_const3,Constant 3
+s7comm.blockinfo.res_infolength,Length of Info
+s7comm.blockinfo.res_unknown,Unknown byte(s) blockinfo
+s7comm.blockinfo.res_unknown2,Unknown blockinfo 2
+s7comm.blockinfo.reserved1,Reserved 1
+s7comm.blockinfo.reserved2,Reserved 2
+s7comm.blockinfo.ssb_len,SSB length
+s7comm.blockinfo.subblk_type,Subblk type
+s7comm.cpu.diag_msg,CPU diagnostic message
+s7comm.cpu.diag_msg.datid,DatID
+s7comm.cpu.diag_msg.eventid,Event ID
+s7comm.cpu.diag_msg.eventid.class,Event class
+s7comm.cpu.diag_msg.eventid.ident.diagbuf,Entry in diagnostic buffer
+s7comm.cpu.diag_msg.eventid.ident.entleave,Event entering state
+s7comm.cpu.diag_msg.eventid.ident.exterr,External error
+s7comm.cpu.diag_msg.eventid.ident.interr,Internal error
+s7comm.cpu.diag_msg.eventid.nr,Event number
+s7comm.cpu.diag_msg.info1,INFO1 Additional information 1
+s7comm.cpu.diag_msg.info2,INFO2 Additional information 2
+s7comm.cpu.diag_msg.obnumber,OB number
+s7comm.cpu.diag_msg.prioclass,Priority class
+s7comm.cpu.msg.almtype,Alarm type
+s7comm.cpu.msg.events,Subscribed events
+s7comm.cpu.msg.events.alarms,Alarms
+s7comm.cpu.msg.events.modetrans,Mode-transition
+s7comm.cpu.msg.events.system,System-diagnostics
+s7comm.cpu.msg.events.userdefined,Userdefined
+s7comm.cpu.msg.req_reserved1,Reserved/Unknown
+s7comm.cpu.msg.req_reserved2,Reserved/Unknown
+s7comm.cpu.msg.res_reserved1,Reserved/Unknown
+s7comm.cpu.msg.res_reserved2,Reserved/Unknown
+s7comm.cpu.msg.res_reserved3,Reserved/Unknown
+s7comm.cpu.msg.res_result,Result
+s7comm.cpu.msg.username,Username
+s7comm.cpu.tis.data,TIS Data
+s7comm.cyclic.function,Function
+s7comm.cyclic.interval_time,Interval time factor
+s7comm.cyclic.interval_timebase,Interval timebase
+s7comm.cyclic.job_id,Job-ID
+s7comm.data,Data
+s7comm.data.blockcontrol.block_number,Block number
+s7comm.data.blockcontrol.block_number.invalid,Block number must be a string containing an integer
+s7comm.data.blockcontrol.block_type,Block type
+s7comm.data.blockcontrol.block_unknown,Unknown char before Block type
+s7comm.data.blockcontrol.dest_filesys,Destination filesystem
+s7comm.data.blockcontrol.errorcode,Errorcode
+s7comm.data.blockcontrol.file_identifier,File identifier
+s7comm.data.blockcontrol.loadmem_len,Length of load memory
+s7comm.data.blockcontrol.mc7code_len,Length of MC7 code
+s7comm.data.blockcontrol.part1_len,Length part 1
+s7comm.data.blockcontrol.part2_len,Length part 2
+s7comm.data.blockcontrol.part2_unknown,Unknown char before load mem
+s7comm.data.blockcontrol.unknown1,Unknown byte(s) in blockcontrol
+s7comm.data.blockcontrol.uploadid,UploadID
+s7comm.data.blockinfo.block_number,Block number
+s7comm.data.blockinfo.block_number.invalid,Block info must be a string containing an integer
+s7comm.data.blockinfo.filesys,Filesystem
+s7comm.data.drr.data,DRR Data
+s7comm.data.fillbyte,Fill byte
+s7comm.data.item,Item
+s7comm.data.length,Length
+s7comm.data.ncprg.filedata,NC file data
+s7comm.data.ncprg.filelength,NC file length
+s7comm.data.ncprg.filepath,NC file path
+s7comm.data.ncprg.filetime,NC file timestamp
+s7comm.data.ncprg.unackcount,Number of telegrams sent without acknowledge
+s7comm.data.plccontrol.argument,Argument
+s7comm.data.plccontrol.block_cnt,Number of blocks
+s7comm.data.plccontrol.block_number,Block number
+s7comm.data.plccontrol.block_type,Block type
+s7comm.data.plccontrol.block_unknown,Unknown char before Block type
+s7comm.data.plccontrol.dest_filesys,Destination filesystem
+s7comm.data.plccontrol.part1_len,Length part 1
+s7comm.data.plccontrol.part1_unknown,Part 1 unknown bytes
+s7comm.data.plccontrol.part1_unknown2,Unknown byte
+s7comm.data.plccontrol.part2_len,Length part 2
+s7comm.data.plccontrol.pi_service,PI (program invocation) Service
+s7comm.data.returncode,Return code
+s7comm.data.transportsize,Transport size
+s7comm.data.ts,S7 Timestamp
+s7comm.data.ts_day,S7 Timestamp - Day
+s7comm.data.ts_hour,S7 Timestamp - Hour
+s7comm.data.ts_millisecond,S7 Timestamp - Milliseconds
+s7comm.data.ts_minute,S7 Timestamp - Minute
+s7comm.data.ts_month,S7 Timestamp - Month
+s7comm.data.ts_reserved,S7 Timestamp - Reserved
+s7comm.data.ts_second,S7 Timestamp - Second
+s7comm.data.ts_weekday,S7 Timestamp - Weekday
+s7comm.data.ts_year1,S7 Timestamp - Year 1
+s7comm.data.ts_year2,S7 Timestamp - Year 2
+s7comm.data.userdata,Data
+s7comm.data.userdata.szl_data_tree,SZL data tree
+s7comm.data.userdata.szl_id,SZL-ID
+s7comm.data.userdata.szl_id.diag_type,Diagnostic type
+s7comm.data.userdata.szl_id.partlist_cnt,SZL partial list count
+s7comm.data.userdata.szl_id.partlist_ex,Number of the partial list extract
+s7comm.data.userdata.szl_id.partlist_len,SZL partial list length in bytes
+s7comm.data.userdata.szl_id.partlist_num,Number of the partial list
+s7comm.data.userdata.szl_index,SZL-Index
+s7comm.diagdata.register,Registers
+s7comm.diagdata.register.accu1,ACCU1
+s7comm.diagdata.register.accu2,ACCU2
+s7comm.diagdata.register.ar1,AR1
+s7comm.diagdata.register.ar2,AR2
+s7comm.diagdata.register.db1,DB1
+s7comm.diagdata.register.db2,DB2
+s7comm.diagdata.register.stw,STW
+s7comm.diagdata.req.answersize,Answer size
+s7comm.diagdata.req.askheadersize,Ask header size
+s7comm.diagdata.req.asksize,Ask size
+s7comm.diagdata.req.blocknumber,Block number
+s7comm.diagdata.req.blocktype,Block type
+s7comm.diagdata.req.line_address,Address
+s7comm.diagdata.req.number_of_lines,Number of lines
+s7comm.diagdata.req.saz,Step address counter (SAZ)
+s7comm.diagdata.req.startaddr_awl,Start address AWL
+s7comm.diagdata.req.unknown,Unknown byte(s) diagdata
+s7comm.fragment,S7COMM Fragment
+s7comm.fragment.count,Fragment count
+s7comm.fragment.error,Defragmentation error
+s7comm.fragment.multipletails,Multiple tail fragments found
+s7comm.fragment.overlap,Fragment overlap
+s7comm.fragment.overlap.conflict,Conflicting data in fragment overlap
+s7comm.fragment.toolongfragment,Fragment too long
+s7comm.fragments,S7COMM Fragments
+s7comm.header,Header
+s7comm.header.datlg,Data length
+s7comm.header.errcls,Error class
+s7comm.header.errcod,Error code
+s7comm.header.parlg,Parameter length
+s7comm.header.pduref,Protocol Data Unit Reference
+s7comm.header.protid,Protocol Id
+s7comm.header.redid,Redundancy Identification (Reserved)
+s7comm.header.rosctr,ROSCTR
+s7comm.ob.8x_fault_flags,OB 8x Fault flags
+s7comm.ob.alarm_slot,OB Slot
+s7comm.ob.alarm_spec,OB Specifier
+s7comm.ob.alarm_type,OB Type of alarm
+s7comm.ob.blk_type,OB Type of block fault occurred in
+s7comm.ob.dtime,OB Delay time (DTIME) input to SRT_DINT instruction
+s7comm.ob.err_ev_class,OB Class of event causing error
+s7comm.ob.err_ev_num,OB Number of event causing error
+s7comm.ob.err_ob_num,OB Number of OB causing error
+s7comm.ob.err_ob_priority,OB Priority of OB causing error
+s7comm.ob.error_info,OB Error information on event
+s7comm.ob.ev_class,OB Event class
+s7comm.ob.exec_freq,OB Frequency of execution (ms)
+s7comm.ob.flt_blk_num,OB Number of block that programming fault occurred in
+s7comm.ob.flt_id,OB Fault identification code
+s7comm.ob.flt_reg,OB Specific register that caused fault
+s7comm.ob.inf_len,OB Length of information
+s7comm.ob.io_flag,OB IO flags
+s7comm.ob.max_cycle,OB Maximum cycle time of OB (ms)
+s7comm.ob.mdl_addr,OB Base address of module initiating interrupt
+s7comm.ob.mdl_type_b,OB Type of module
+s7comm.ob.mdl_type_w,OB Module type with point fault
+s7comm.ob.mem_addr,OB Memory address where access error occurred
+s7comm.ob.mem_area,OB Memory area where access error occurred
+s7comm.ob.min_cycle,OB Minimum cycle time of OB (ms)
+s7comm.ob.number,OB Number
+s7comm.ob.period_exe,OB Period of execution
+s7comm.ob.phase_offset,OB Phase offset (ms)
+s7comm.ob.point_addr,OB Address of interrupt point on module
+s7comm.ob.prev_cycle,OB Cycle time of previous OB scan (ms)
+s7comm.ob.prg_addr,OB Address in block where programming fault occurred
+s7comm.ob.priority,OB Priority
+s7comm.ob.rack_cpu,OB Rack / CPU number
+s7comm.ob.rack_num,OB Number of rack that has module with point fault
+s7comm.ob.racks_flt,OB Racks in fault
+s7comm.ob.reserved_1,OB Reserved 1
+s7comm.ob.reserved_2,OB Reserved 2
+s7comm.ob.reserved_3,OB Reserved 3
+s7comm.ob.reserved_4,OB Reserved 4
+s7comm.ob.reserved_4_dw,OB Reserved 4
+s7comm.ob.scan_1,OB Scan 1
+s7comm.ob.sign,OB Identifier input (SIGN) attached to SRT_DINT
+s7comm.ob.stop,OB Event that caused CPU to stop
+s7comm.ob.strt_info,OB Start info
+s7comm.ob.strtup,OB Method of startup
+s7comm.ob.sw_flt,OB Software programming fault
+s7comm.param,Parameter
+s7comm.param.blockcontrol.filename,Filename
+s7comm.param.blockcontrol.filename_len,Filename Length
+s7comm.param.blockcontrol.functionstatus,Function Status
+s7comm.param.blockcontrol.functionstatus.error,Error
+s7comm.param.blockcontrol.functionstatus.more,More data following
+s7comm.param.blockcontrol.upl_lenstring,Blocklength
+s7comm.param.blockcontrol.upl_lenstring_len,Blocklengthstring Length
+s7comm.param.data,Parameter data
+s7comm.param.errcod,Error code
+s7comm.param.func,Function
+s7comm.param.item,Item
+s7comm.param.item.address,Address
+s7comm.param.item.address.bit,Bit Address
+s7comm.param.item.address.byte,Byte Address
+s7comm.param.item.address.number,Number (T/C/BLOCK)
+s7comm.param.item.area,Area
+s7comm.param.item.db,DB number
+s7comm.param.item.dbread.db,DB number
+s7comm.param.item.dbread.length,Bytes to read
+s7comm.param.item.dbread.numareas,Number of areas
+s7comm.param.item.dbread.startaddress,Start address
+s7comm.param.item.driveesany.parameteridx,DriveES Parameter index
+s7comm.param.item.driveesany.parameternr,DriveES Parameter number
+s7comm.param.item.driveesany.unknown1,DriveES Unknown 1
+s7comm.param.item.driveesany.unknown2,DriveES Unknown 2
+s7comm.param.item.driveesany.unknown3,DriveES Unknown 3
+s7comm.param.item.length,Length
+s7comm.param.item.nck.area,NCK Area
+s7comm.param.item.nck.area_unit,NCK Area/Unit
+s7comm.param.item.nck.column,NCK Column number
+s7comm.param.item.nck.line,NCK Line number
+s7comm.param.item.nck.linecount,NCK Linecount
+s7comm.param.item.nck.module,NCK Module
+s7comm.param.item.nck.unit,NCK Unit
+s7comm.param.item.syntaxid,Syntax Id
+s7comm.param.item.transp_size,Transport size
+s7comm.param.item.varspec,Variable specification
+s7comm.param.item.varspec_length,Length of following address specification
+s7comm.param.itemcount,Item count
+s7comm.param.maxamq_called,Max AmQ (parallel jobs with ack) called
+s7comm.param.maxamq_calling,Max AmQ (parallel jobs with ack) calling
+s7comm.param.modetrans.mode,Current mode
+s7comm.param.modetrans.subfunc,Current mode
+s7comm.param.modetrans.unknown1,Reserved/Unknown
+s7comm.param.modetrans.unknown2,Reserved/Unknown
+s7comm.param.pdu_length,PDU length
+s7comm.param.pi.inse.unknown,Unknown byte
+s7comm.param.pi.n_x.addressident,Addressidentification
+s7comm.param.pi.n_x.blsync,Blsync
+s7comm.param.pi.n_x.cenumber,CE-Number
+s7comm.param.pi.n_x.channelnumber,Channel Number
+s7comm.param.pi.n_x.class,Class
+s7comm.param.pi.n_x.comparestring,Compare String
+s7comm.param.pi.n_x.datablocknumber,Datablock Number
+s7comm.param.pi.n_x.destinationfilename,Destination-Filename
+s7comm.param.pi.n_x.direction,Direction
+s7comm.param.pi.n_x.dnr,DNr
+s7comm.param.pi.n_x.duplonumber,Duplo Number
+s7comm.param.pi.n_x.edgenumber,Edge Number
+s7comm.param.pi.n_x.editwindowname,Editor Window Name
+s7comm.param.pi.n_x.factor,Factor
+s7comm.param.pi.n_x.filename,Filename
+s7comm.param.pi.n_x.findmode,Findmode
+s7comm.param.pi.n_x.firstcolumnnumber,First Column Number
+s7comm.param.pi.n_x.firstrownnumber,First Row Number
+s7comm.param.pi.n_x.functionnumber,Function Number
+s7comm.param.pi.n_x.halfplacesdown,Half places down
+s7comm.param.pi.n_x.halfplacesleft,Half places left
+s7comm.param.pi.n_x.halfplacesright,Half places right
+s7comm.param.pi.n_x.halfplacesup,Half places up
+s7comm.param.pi.n_x.incrementnumber,Increment Number
+s7comm.param.pi.n_x.interruptnr,Interrupt Number
+s7comm.param.pi.n_x.kindofsearch,Kind of search
+s7comm.param.pi.n_x.lastcolumnnumber,Last Column Number
+s7comm.param.pi.n_x.lastrownnumber,Last Row Number
+s7comm.param.pi.n_x.liftfast,Liftfast
+s7comm.param.pi.n_x.linenumber,Line Number
+s7comm.param.pi.n_x.magnr,Magnr
+s7comm.param.pi.n_x.magnrdestination,Magazine Number Destination
+s7comm.param.pi.n_x.magnrfrom,Magazine Number from
+s7comm.param.pi.n_x.magnrsource,Magazine Number Source
+s7comm.param.pi.n_x.magnrto,Magazine Number to
+s7comm.param.pi.n_x.magrefnr,Magazine Reference Number
+s7comm.param.pi.n_x.mode,Mode
+s7comm.param.pi.n_x.monitoringmode,Monitoring mode
+s7comm.param.pi.n_x.newfilename,New Filename
+s7comm.param.pi.n_x.oldfilename,Old Filename
+s7comm.param.pi.n_x.onoff,OnOff
+s7comm.param.pi.n_x.password,Password
+s7comm.param.pi.n_x.passwordlevel,Password Level
+s7comm.param.pi.n_x.placenr,Place Number
+s7comm.param.pi.n_x.placenrdestination,Place Number Destination
+s7comm.param.pi.n_x.placenrfrom,Place Number from
+s7comm.param.pi.n_x.placenrsource,Place Number Source
+s7comm.param.pi.n_x.placenrto,Place Number to
+s7comm.param.pi.n_x.placerefnr,Place Reference Number
+s7comm.param.pi.n_x.placetype,Place type index
+s7comm.param.pi.n_x.priority,Priority
+s7comm.param.pi.n_x.protection,Protection
+s7comm.param.pi.n_x.searchdirection,Search direction
+s7comm.param.pi.n_x.seekpointer,Seek pointer
+s7comm.param.pi.n_x.semaphorevalue,Semaphore Value
+s7comm.param.pi.n_x.semaphorvalue,Semaphor Value
+s7comm.param.pi.n_x.skipcount,Skip Count
+s7comm.param.pi.n_x.sourcefilename,Source-Filename
+s7comm.param.pi.n_x.spindlenumber,Spindle Number
+s7comm.param.pi.n_x.string_len,String length
+s7comm.param.pi.n_x.switch,Switch
+s7comm.param.pi.n_x.tnr,TNr
+s7comm.param.pi.n_x.toolid,Tool ID
+s7comm.param.pi.n_x.toolname,Tool Name
+s7comm.param.pi.n_x.toolnumber,Tool Number
+s7comm.param.pi.n_x.toolstatus,Tool Status
+s7comm.param.pi.n_x.weargroup,Wear Group
+s7comm.param.pi.n_x.wearsearchstrat,Search Strategy
+s7comm.param.pi.n_x.windowsize,Window size
+s7comm.param.pi.n_x.wznr,WZ-Nr
+s7comm.param.pistart.argument,Argument
+s7comm.param.pistart.parameterblock,Parameter block
+s7comm.param.pistart.parameterblock_len,Parameter block length
+s7comm.param.pistart.servicename,PI (program invocation) Service
+s7comm.param.pistart.unknown1,Unknown bytes
+s7comm.param.setup_reserved1,Reserved
+s7comm.param.subitem,Subitem
+s7comm.param.userdata.blockinfo.flags,Block flags
+s7comm.param.userdata.blockinfo.linked,Linked
+s7comm.param.userdata.blockinfo.nonretain,Non Retain
+s7comm.param.userdata.blockinfo.standard_block,Standard block
+s7comm.param.userdata.dataunitref,Data unit reference number
+s7comm.param.userdata.funcgroup,Function group
+s7comm.param.userdata.head,Parameter head
+s7comm.param.userdata.lastdataunit,Last data unit
+s7comm.param.userdata.length,Parameter length
+s7comm.param.userdata.reqres1,Method (Request/Response)
+s7comm.param.userdata.seq_num,Sequence number
+s7comm.param.userdata.subfunc,Subfunction
+s7comm.param.userdata.szl_data,SZL data
+s7comm.param.userdata.szl_part_list,SZL partial list data
+s7comm.param.userdata.type,Type
+s7comm.pbc.arsend.ar_id,PBC AR_SEND AR_ID
+s7comm.pbc.arsend.len,PBC AR_SEND LEN
+s7comm.pbc.arsend.ret,PBC AR_SEND Returncode
+s7comm.pbc.arsend.unknown,PBC AR_SEND unknown
+s7comm.pbc.bsend.unknown,PBC BSEND/BRECV unknown
+s7comm.pbc.req.bsend.len,PBC BSEND LEN
+s7comm.pbc.req.bsend.r_id,PBC BSEND R_ID
+s7comm.pbc.unknown,PBC unknown
+s7comm.pbc.usend.r_id,PBC USEND R_ID
+s7comm.pbc.usend.unknown1,PBC USEND unknown 1
+s7comm.pbc.usend.unknown2,PBC USEND unknown 2
+s7comm.readrec.data,Rdrec Data
+s7comm.readrec.id,Rdrec ID
+s7comm.readrec.index,Rdrec Index
+s7comm.readrec.len,Rdrec Len
+s7comm.readrec.mlen,Rdrec Mlen
+s7comm.readrec.reserved1,Rdrec reserved
+s7comm.readrec.status,Rdrec Status
+s7comm.readrec.statuslen,Rdrec Status Len
+s7comm.reassembled.in,Reassembled in
+s7comm.reassembled.length,Reassembled S7COMM length
+s7comm.resp.data,Data
+s7comm.szl.0000.0000.module_type_class,Module type class
+s7comm.szl.0000.0000.partlist_extr_nr,Number of the SZL partial list extract
+s7comm.szl.0000.0000.partlist_nr,Number of the SZL partial list
+s7comm.szl.0000.0000.szl_id,SZL ID that exists
+s7comm.szl.0013.0000.belegt1,belegt1 (Size of the volatile memory area being used)
+s7comm.szl.0013.0000.belegt2,belegt2 (Size of the non-volatile memory area being used)
+s7comm.szl.0013.0000.ber1,ber1 (Size of the volatile memory area in bytes)
+s7comm.szl.0013.0000.ber2,ber2 (Size of the non-volatile memory area in bytes)
+s7comm.szl.0013.0000.block1,block1 (Largest free block in the volatile memory area)
+s7comm.szl.0013.0000.block2,block2 (Largest free block in the non-volatile memory area)
+s7comm.szl.0013.0000.code,Code (Memory type)
+s7comm.szl.0013.0000.granu,Granu
+s7comm.szl.0013.0000.index,Index
+s7comm.szl.0013.0000.mode,Mode (Logical mode of the memory)
+s7comm.szl.0013.0000.mode.cd_sep,Code and data separate (for work memory)
+s7comm.szl.0013.0000.mode.cd_tog,Code and data together (for work memory)
+s7comm.szl.0013.0000.mode.mixed_mem,Mixed memory area
+s7comm.szl.0013.0000.mode.nvol_mem,Non-volatile memory area
+s7comm.szl.0013.0000.mode.vol_mem,Volatile memory area
+s7comm.szl.0013.0000.size,"Size (Total size of the selected memory, total of area 1 and area 2)"
+s7comm.szl.001c.0001.name,Name (Name of the PLC)
+s7comm.szl.001c.0002.name,Name (Name of the module)
+s7comm.szl.001c.0003.tag,Tag (Plant identification of the module)
+s7comm.szl.001c.0004.copyright,Copyright
+s7comm.szl.001c.0005.serialn,Serialn (Serialnumber of the module)
+s7comm.szl.001c.0007.cputypname,Cputypname (Module type namee)
+s7comm.szl.001c.0008.snmcmmc,Sn_mc/mmc (Serial number of the Memory Card/Micro Memory Card)
+s7comm.szl.001c.0009.manufacturer_id,Manufacturer_id
+s7comm.szl.001c.0009.profile_id,Profile_id
+s7comm.szl.001c.0009.profile_spec_typ,Profile_spec_typ
+s7comm.szl.001c.000a.oem_add_id,Oem_add_id (OEM additional ID)
+s7comm.szl.001c.000a.oem_copyright_string,Oem_copyright_string (OEM Copyright ID)
+s7comm.szl.001c.000a.oem_id,Oem_id (OEM ID)
+s7comm.szl.001c.000b.loc_id,Loc_id (Location designation)
+s7comm.szl.001c.000x.index,Index
+s7comm.szl.001c.000x.res,Reserved
+s7comm.szl.0091.0000.acttype,Actual type
+s7comm.szl.0091.0000.adr1,Adr1
+s7comm.szl.0091.0000.adr2,Adr2
+s7comm.szl.0091.0000.berbgbr,Ber_bgbr (Area ID/module width)
+s7comm.szl.0091.0000.berbgbr.areaid,Area ID
+s7comm.szl.0091.0000.berbgbr.bit3_res,Reserved
+s7comm.szl.0091.0000.berbgbr.bit7_res,Reserved
+s7comm.szl.0091.0000.berbgbr.width,Module width
+s7comm.szl.0091.0000.eastat,I/O status
+s7comm.szl.0091.0000.eastat.cirbusy,CiR event busy
+s7comm.szl.0091.0000.eastat.dataid,Data ID for logical address
+s7comm.szl.0091.0000.eastat.moddisabl,Module disabled
+s7comm.szl.0091.0000.eastat.moderror,Module error
+s7comm.szl.0091.0000.eastat.modexists,Module exists
+s7comm.szl.0091.0000.eastat.modlocseg,Module in local bus segment
+s7comm.szl.0091.0000.eastat.modnotav,Module not available
+s7comm.szl.0091.0000.eastat.res,Reserved
+s7comm.szl.0091.0000.eastat.staterr,Station error
+s7comm.szl.0091.0000.exptype,Expected type
+s7comm.szl.0091.0000.logadr,Logadr
+s7comm.szl.0091.0000.res1,Reserved
+s7comm.szl.0091.0000.res1_0c_4c_4d,Reserved (number of actually existing interface modules)
+s7comm.szl.0091.0000.res1_0d,Reserved (number of interface modules)
+s7comm.szl.0092.xxxx.status_0,status_0
+s7comm.szl.0092.xxxx.status_1,status_1
+s7comm.szl.0092.xxxx.status_10,status_10
+s7comm.szl.0092.xxxx.status_11,status_11
+s7comm.szl.0092.xxxx.status_12,status_12
+s7comm.szl.0092.xxxx.status_13,status_13
+s7comm.szl.0092.xxxx.status_14,status_14
+s7comm.szl.0092.xxxx.status_15,status_15
+s7comm.szl.0092.xxxx.status_2,status_2
+s7comm.szl.0092.xxxx.status_3,status_3
+s7comm.szl.0092.xxxx.status_4,status_4
+s7comm.szl.0092.xxxx.status_5,status_5
+s7comm.szl.0092.xxxx.status_6,status_6
+s7comm.szl.0092.xxxx.status_7,status_7
+s7comm.szl.0092.xxxx.status_8,status_8
+s7comm.szl.0092.xxxx.status_9,status_9
+s7comm.szl.0094.xxxx.index,Index
+s7comm.szl.0094.xxxx.status_0,status_0 (Group information)
+s7comm.szl.0094.xxxx.status_1_2047,Status
+s7comm.szl.0131.0001.anz,anz (Maximum number of communication connections)
+s7comm.szl.0131.0001.index,Index
+s7comm.szl.0131.0001.kbus_bps,mkbus_bps (Maximum data rate of the communication bus)
+s7comm.szl.0131.0001.mpi_bps,mpi_bps (Maximum data rate of the MPI in hexadecimal format)
+s7comm.szl.0131.0001.pdu,pdu (Maximum PDU size in bytes)
+s7comm.szl.0131.0001.res,res (Reserved)
+s7comm.szl.0131.0002.aseg,aseg
+s7comm.szl.0131.0002.erg_par,erg par (System data with no relevance)
+s7comm.szl.0131.0002.erg_pat_1,erg pat 1 (System data with no relevance)
+s7comm.szl.0131.0002.erg_pat_2,erg pat 2 (System data with no relevance)
+s7comm.szl.0131.0002.eseg,eseg
+s7comm.szl.0131.0002.force,force (Number of modifiable Variables)
+s7comm.szl.0131.0002.funkt_0,funkt_0
+s7comm.szl.0131.0002.funkt_0.bit0_res,Reserved
+s7comm.szl.0131.0002.funkt_0.bit7_res,Reserved
+s7comm.szl.0131.0002.funkt_0.block_stat,Block status
+s7comm.szl.0131.0002.funkt_0.clr_cycl_read,Clear cyclic reading
+s7comm.szl.0131.0002.funkt_0.force_sel,Force selection
+s7comm.szl.0131.0002.funkt_0.outp_bstack,Output BSTACK
+s7comm.szl.0131.0002.funkt_0.outp_istack,Output ISTACK
+s7comm.szl.0131.0002.funkt_0.outp_lstack,Output LSTACK
+s7comm.szl.0131.0002.funkt_0.time_meas,Time measurement from ... to ...
+s7comm.szl.0131.0002.funkt_0.var_stat,Variable status
+s7comm.szl.0131.0002.funkt_1,funkt_1
+s7comm.szl.0131.0002.funkt_1.bit_mem,Bit memory
+s7comm.szl.0131.0002.funkt_1.breakp,Breakpoint
+s7comm.szl.0131.0002.funkt_1.del_job,Delete job
+s7comm.szl.0131.0002.funkt_1.dis_job,Disable job
+s7comm.szl.0131.0002.funkt_1.en_job,Enable job
+s7comm.szl.0131.0002.funkt_1.exit_hold,Exit HOLD
+s7comm.szl.0131.0002.funkt_1.force,Force
+s7comm.szl.0131.0002.funkt_1.mem_res,Memory reset
+s7comm.szl.0131.0002.funkt_1.mod_var,Modify variable
+s7comm.szl.0131.0002.funkt_1.oexit_hold,Exit HOLD
+s7comm.szl.0131.0002.funkt_1.outputs,Outputs
+s7comm.szl.0131.0002.funkt_2,funkt_2
+s7comm.szl.0131.0002.funkt_2.bit3_res,Reserved
+s7comm.szl.0131.0002.funkt_2.bit4_res,Reserved
+s7comm.szl.0131.0002.funkt_2.bit5_res,Reserved
+s7comm.szl.0131.0002.funkt_2.bit6_res,Reserved
+s7comm.szl.0131.0002.funkt_2.bit7_res,Reserved
+s7comm.szl.0131.0002.funkt_2.block_stat_v2,Block status v2
+s7comm.szl.0131.0002.funkt_2.flash_led,Flash LED
+s7comm.szl.0131.0002.funkt_2.rd_job,Read job
+s7comm.szl.0131.0002.funkt_2.rd_job_list,Read job list
+s7comm.szl.0131.0002.funkt_2.repl_job,Replace job
+s7comm.szl.0131.0002.funkt_2.s7_counter,S7 counter
+s7comm.szl.0131.0002.funkt_3,funkt_3 (Reserved)
+s7comm.szl.0131.0002.funkt_3.bit6_res,Reserved
+s7comm.szl.0131.0002.funkt_3.bit7_res,Reserved
+s7comm.szl.0131.0002.funkt_4,funkt_4 (Reserved)
+s7comm.szl.0131.0002.funkt_5,funkt_5 (Reserved)
+s7comm.szl.0131.0002.index,Index
+s7comm.szl.0131.0002.pfad,pfad (System data with no relevance)
+s7comm.szl.0131.0002.res,res (Reserved)
+s7comm.szl.0131.0002.systrig,systrig (System data with no relevance)
+s7comm.szl.0131.0002.tiefe,tiefe (System data with no relevance)
+s7comm.szl.0131.0002.time,time
+s7comm.szl.0131.0002.trgbed,trgbed (System data with no relevance)
+s7comm.szl.0131.0002.trgereig_0,trgereig_0 (Permitted trigger events)
+s7comm.szl.0131.0002.trgereig_0.acode_adr,After code address
+s7comm.szl.0131.0002.trgereig_0.code_adr_a,Code address area
+s7comm.szl.0131.0002.trgereig_0.data_adr,Data address
+s7comm.szl.0131.0002.trgereig_0.immed,Immediately
+s7comm.szl.0131.0002.trgereig_0.mtrans_rs,Mode transition RUN-STOP
+s7comm.szl.0131.0002.trgereig_0.sys_cp_mce,System checkpoint main cycle end
+s7comm.szl.0131.0002.trgereig_0.sys_cp_mcs,System checkpoint main cycle start
+s7comm.szl.0131.0002.trgereig_0.sys_trig,System trigger
+s7comm.szl.0131.0002.trgereig_1,trgereig_1 (Permitted trigger events)
+s7comm.szl.0131.0002.trgereig_1.bcode_adr,Before code address
+s7comm.szl.0131.0002.trgereig_1.bit5_res,Reserved
+s7comm.szl.0131.0002.trgereig_1.bit6_res,Reserved
+s7comm.szl.0131.0002.trgereig_1.bit7_res,Reserved
+s7comm.szl.0131.0002.trgereig_1.data_adr_a,Data address area
+s7comm.szl.0131.0002.trgereig_1.loc_adr,Local data address
+s7comm.szl.0131.0002.trgereig_1.loc_adr_a,Local data address area
+s7comm.szl.0131.0002.trgereig_1.range_trig,Range trigger
+s7comm.szl.0131.0002.trgereig_2,"trgereig_2 (Permitted trigger events, reserved)"
+s7comm.szl.0131.0003.anz,anz (Maximum number of cyclic read jobs)
+s7comm.szl.0131.0003.data,data (Maximum size of consistently readable data)
+s7comm.szl.0131.0003.funkt_0,funkt_0
+s7comm.szl.0131.0003.funkt_0.init_cycl_read_expl,Initialize cyclic reading (start explicitly)
+s7comm.szl.0131.0003.funkt_0.init_cycl_read_impl,Initialize cyclic reading (start implicitly)
+s7comm.szl.0131.0003.funkt_0.read_once,Read once
+s7comm.szl.0131.0003.funkt_0.start_cycl_read,Start cyclic reading
+s7comm.szl.0131.0003.funkt_0.stop_cycl_read,Stop cyclic reading
+s7comm.szl.0131.0003.funkt_0.write_once,Write once
+s7comm.szl.0131.0003.funkt_1,funkt_1
+s7comm.szl.0131.0003.funkt_1.bit0_res,Reserved
+s7comm.szl.0131.0003.funkt_1.bit1_res,Reserved
+s7comm.szl.0131.0003.funkt_1.bit2_res,Reserved
+s7comm.szl.0131.0003.funkt_1.bit3_res,Reserved
+s7comm.szl.0131.0003.funkt_1.inputs,Inputs
+s7comm.szl.0131.0003.funkt_1.periph_io,Peripheral I/Os
+s7comm.szl.0131.0003.funkt_2,funkt_2
+s7comm.szl.0131.0003.funkt_2.bit2_res,Reserved
+s7comm.szl.0131.0003.funkt_2.bit3_res,Reserved
+s7comm.szl.0131.0003.funkt_2.bit4_res,Reserved
+s7comm.szl.0131.0003.funkt_2.bit5_res,Reserved
+s7comm.szl.0131.0003.funkt_2.data_rec,Data record
+s7comm.szl.0131.0003.funkt_2.user_db,User DB
+s7comm.szl.0131.0003.funkt_3,funkt_3
+s7comm.szl.0131.0003.funkt_3.bit4_res,Reserved
+s7comm.szl.0131.0003.funkt_3.bit5_res,Reserved
+s7comm.szl.0131.0003.funkt_3.hs_counter,High speed counter
+s7comm.szl.0131.0003.funkt_3.iec_counter,IEC counter
+s7comm.szl.0131.0003.funkt_3.iec_timer,IEC timer
+s7comm.szl.0131.0003.funkt_3.s7_timer,S7 timer
+s7comm.szl.0131.0003.index,Index
+s7comm.szl.0131.0003.per_max,per max (Maximum period for cyclic read jobs (n x 100 ms))
+s7comm.szl.0131.0003.per_min,per min (Minimum period for cyclic read jobs (n x 100 ms))
+s7comm.szl.0131.0003.res,res (Reserved)
+s7comm.szl.0131.0004.del,"del (Maximum number of uninterruptable, deletable blocks)"
+s7comm.szl.0131.0004.funkt_0,funkt_0
+s7comm.szl.0131.0004.funkt_0.bit0_res,Reserved
+s7comm.szl.0131.0004.funkt_0.chain_copied,Chain (all copied)
+s7comm.szl.0131.0004.funkt_0.chain_list,Chain (list)
+s7comm.szl.0131.0004.funkt_0.copy,Copy
+s7comm.szl.0131.0004.funkt_0.delete_list,Delete (list)
+s7comm.szl.0131.0004.funkt_0.dir_h1,Directory (hierarchy 1)
+s7comm.szl.0131.0004.funkt_0.dir_h2,Directory (hierarchy 2)
+s7comm.szl.0131.0004.funkt_0.dir_h3,Directory (hierarchy 3)
+s7comm.szl.0131.0004.funkt_1,funkt_1
+s7comm.szl.0131.0004.funkt_1.asgn_w_chain,Assign parameters when chaining
+s7comm.szl.0131.0004.funkt_1.bit3_res,Reserved
+s7comm.szl.0131.0004.funkt_1.bit4_res,Reserved
+s7comm.szl.0131.0004.funkt_1.bit5_res,Reserved
+s7comm.szl.0131.0004.funkt_1.bit6_res,Reserved
+s7comm.szl.0131.0004.funkt_1.delete_all,Delete *.*
+s7comm.szl.0131.0004.funkt_1.load_w_chg,LOAD function when exchanging data with CFBs
+s7comm.szl.0131.0004.funkt_1.upl_on_pg,Upload on PG
+s7comm.szl.0131.0004.funkt_2,funkt_2
+s7comm.szl.0131.0004.funkt_2.compress,Compress (external)
+s7comm.szl.0131.0004.funkt_2.fw_update,Firmware update (using communication)
+s7comm.szl.0131.0004.funkt_2.load_eprom,Load user program (EPROM)
+s7comm.szl.0131.0004.funkt_2.load_ram,Load user program (RAM)
+s7comm.szl.0131.0004.funkt_2.save_all,Save user program (all)
+s7comm.szl.0131.0004.funkt_2.save_eprom,Save user program (EPROM)
+s7comm.szl.0131.0004.funkt_2.save_ram,Save user program (RAM)
+s7comm.szl.0131.0004.funkt_2.set_ram_mode,Set RAM memory mode
+s7comm.szl.0131.0004.funkt_3,funkt_3
+s7comm.szl.0131.0004.funkt_3.asgn_par_mc,Assign parameters when evaluating memory card
+s7comm.szl.0131.0004.funkt_3.asgn_par_mod,Assign parameters to newly plugged in modules
+s7comm.szl.0131.0004.funkt_3.bit1_res,Reserved
+s7comm.szl.0131.0004.funkt_3.bit2_res,Reserved
+s7comm.szl.0131.0004.funkt_3.bit3_res,Reserved
+s7comm.szl.0131.0004.funkt_3.bit4_res,Reserved
+s7comm.szl.0131.0004.funkt_3.bit5_res,Reserved
+s7comm.szl.0131.0004.funkt_3.set_eprom_mode,Set EPROM memory mode
+s7comm.szl.0131.0004.funkt_4,funkt_4
+s7comm.szl.0131.0004.funkt_4.asgn_par_cres,Assign parameters in complete restart
+s7comm.szl.0131.0004.funkt_4.asgn_par_lprog,Assign parameters when loading user program
+s7comm.szl.0131.0004.funkt_4.asgn_par_res,Assign parameters in restart
+s7comm.szl.0131.0004.funkt_4.bit6_res,Reserved
+s7comm.szl.0131.0004.funkt_4.bit7_res,Reserved
+s7comm.szl.0131.0004.funkt_4.compress,Compress (SFC25 COMPRESS)
+s7comm.szl.0131.0004.funkt_4.ev_mc,Evaluate memory card after switch setting
+s7comm.szl.0131.0004.funkt_4.fw_update_mc,Firmware update using memory card
+s7comm.szl.0131.0004.funkt_5,funkt_5 (Reserved)
+s7comm.szl.0131.0004.funkt_6,funkt_6 (Reserved)
+s7comm.szl.0131.0004.funkt_7,funkt_7 (Reserved)
+s7comm.szl.0131.0004.hoch,hoch (Maximum number of simultaneous upload procedures)
+s7comm.szl.0131.0004.index,Index
+s7comm.szl.0131.0004.kett,kett (Maximum number of blocks chained in one job)
+s7comm.szl.0131.0004.kop,kop (Maximum number of copied blocks)
+s7comm.szl.0131.0004.res,res (Reserved)
+s7comm.szl.0131.0004.ver,ver (Maximum size (in bytes) of shiftable blocks in RUN)
+s7comm.szl.0131.0005.anz_ein,anz_ein (Maximum number of entries in the diagnostic buffer)
+s7comm.szl.0131.0005.anz_mel,anz_mel (Maximum number of process control group messages)
+s7comm.szl.0131.0005.anz_sen,anz_sen (Maximum number of diagnostic data sinks)
+s7comm.szl.0131.0005.funkt_0,funkt_0 (Available diagnostic functions)
+s7comm.szl.0131.0005.funkt_0.bit0_res,Reserved
+s7comm.szl.0131.0005.funkt_0.bit7_res,Reserved
+s7comm.szl.0131.0005.funkt_0.diag_buf,Diagnostic buffer exists
+s7comm.szl.0131.0005.funkt_0.diagint,Diagnostic interrupt exists on module
+s7comm.szl.0131.0005.funkt_0.evaldiagint,Evaluating diagnostic interrupts
+s7comm.szl.0131.0005.funkt_0.sysdiag,Sending system diagnostic data possible
+s7comm.szl.0131.0005.funkt_0.userdiag,Sending user-defined diagnostic messages possible
+s7comm.szl.0131.0005.funkt_0.vmdstat,Sending VMD status possible
+s7comm.szl.0131.0005.funkt_1,funkt_1 (Reserved)
+s7comm.szl.0131.0005.funkt_2,funkt_2 (Reserved)
+s7comm.szl.0131.0005.funkt_3,funkt_3 (Reserved)
+s7comm.szl.0131.0005.funkt_4,funkt_4 (Reserved)
+s7comm.szl.0131.0005.funkt_5,funkt_5 (Reserved)
+s7comm.szl.0131.0005.funkt_6,funkt_6 (Reserved)
+s7comm.szl.0131.0005.funkt_7,funkt_7 (Reserved)
+s7comm.szl.0131.0005.index,Index
+s7comm.szl.0131.0005.res,res (Reserved)
+s7comm.szl.0131.0006.funkt_0,funkt_0
+s7comm.szl.0131.0006.funkt_0.brcv,Bit 5: BRCV
+s7comm.szl.0131.0006.funkt_0.bsend,Bit 4: BSEND
+s7comm.szl.0131.0006.funkt_0.get,Bit 6: GET
+s7comm.szl.0131.0006.funkt_0.put,Bit 7: PUT
+s7comm.szl.0131.0006.funkt_0.rcv,Bit 3: RCV
+s7comm.szl.0131.0006.funkt_0.send,Bit 2: SEND
+s7comm.szl.0131.0006.funkt_0.urcv,Bit 1: URCV
+s7comm.szl.0131.0006.funkt_0.usend,Bit 0: USEND
+s7comm.szl.0131.0006.funkt_1,funkt_1
+s7comm.szl.0131.0006.funkt_1.abort,Bit 1: ABORT
+s7comm.szl.0131.0006.funkt_1.initiate,Bit 2: INITIATE
+s7comm.szl.0131.0006.funkt_1.print,Bit 0: PRINT
+s7comm.szl.0131.0006.funkt_1.resume,Bit 5: RESUME
+s7comm.szl.0131.0006.funkt_1.start,Bit 3: START
+s7comm.szl.0131.0006.funkt_1.status,Bit 6: STATUS
+s7comm.szl.0131.0006.funkt_1.stop,Bit 4: STOP
+s7comm.szl.0131.0006.funkt_1.ustatus,Bit 7: USTATUS
+s7comm.szl.0131.0006.funkt_2,funkt_2
+s7comm.szl.0131.0006.funkt_2.alarm,Bit 5: ALARM
+s7comm.szl.0131.0006.funkt_2.alarm_8,Bit 6: ALARM_8
+s7comm.szl.0131.0006.funkt_2.alarm_8p,Bit 7: ALARM_8P
+s7comm.szl.0131.0006.funkt_2.load,Bit 3: LOAD
+s7comm.szl.0131.0006.funkt_2.load_me,Bit 4: LOAD_ME
+s7comm.szl.0131.0006.funkt_2.pi,Bit 0: PI
+s7comm.szl.0131.0006.funkt_2.read,Bit 1: READ
+s7comm.szl.0131.0006.funkt_2.write,Bit 2: WRITE
+s7comm.szl.0131.0006.funkt_3,funkt_3
+s7comm.szl.0131.0006.funkt_3.ar_send,Bit 1: AR_SEND
+s7comm.szl.0131.0006.funkt_3.bit2_res,Bit 2: Reserved
+s7comm.szl.0131.0006.funkt_3.bit3_res,Bit 3: Reserved
+s7comm.szl.0131.0006.funkt_3.bit4_res,Bit 4: Reserved
+s7comm.szl.0131.0006.funkt_3.bit5_res,Bit 5: Reserved
+s7comm.szl.0131.0006.funkt_3.bit6_res,Bit 6: Reserved
+s7comm.szl.0131.0006.funkt_3.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0006.funkt_3.notify,Bit 0: NOTIFY
+s7comm.szl.0131.0006.funkt_4,funkt_4
+s7comm.szl.0131.0006.funkt_5,funkt_5
+s7comm.szl.0131.0006.funkt_6,funkt_6
+s7comm.szl.0131.0006.funkt_6.i_abort,Bit 7: I_ABORT
+s7comm.szl.0131.0006.funkt_6.i_get,Bit 5: I_GET
+s7comm.szl.0131.0006.funkt_6.i_put,Bit 6: I_PUT
+s7comm.szl.0131.0006.funkt_6.x_abort,Bit 4: X_ABORT
+s7comm.szl.0131.0006.funkt_6.x_get,Bit 2: X_GET
+s7comm.szl.0131.0006.funkt_6.x_put,Bit 3: X_PUT
+s7comm.szl.0131.0006.funkt_6.x_rcv,Bit 1: X_RCV
+s7comm.szl.0131.0006.funkt_6.x_send,Bit 0: X_SEND
+s7comm.szl.0131.0006.funkt_7,funkt_7
+s7comm.szl.0131.0006.funkt_7.alarm_s,Bit 2: ALARM_S
+s7comm.szl.0131.0006.funkt_7.alarm_sc,Bit 3: ALARM_SC
+s7comm.szl.0131.0006.funkt_7.alarm_sq,Bit 1: ALARM_SQ
+s7comm.szl.0131.0006.funkt_7.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0006.funkt_7.control,Bit 6: CONTROL
+s7comm.szl.0131.0006.funkt_7.dis_msg,Bit 5: DIS_MSG
+s7comm.szl.0131.0006.funkt_7.en_msg,Bit 4: EN_MSG
+s7comm.szl.0131.0006.funkt_7.scan_snd,Bit 0: SCAN_SND
+s7comm.szl.0131.0006.index,Index
+s7comm.szl.0131.0006.max_inst,max_inst (Maximum number of instances for communication SFBs for configured connections)
+s7comm.szl.0131.0006.max_sd_al8p,max_sd_al8p (Maximum number of send parameters for ALARM_8P)
+s7comm.szl.0131.0006.max_sd_empf,max_sd_empf (Maximum number of send and receive parameters per block)
+s7comm.szl.0131.0006.res1,res1 (Reserved)
+s7comm.szl.0131.0006.res2,res2 (Reserved)
+s7comm.szl.0131.0006.res3,res3 (Reserved)
+s7comm.szl.0131.0006.schnell,schnell (Fast reaction yes/no)
+s7comm.szl.0131.0006.verb_prog,verb_prog (Connection programmed (yes=1) possible)
+s7comm.szl.0131.0006.verb_proj,verb_proj (Connection configured (yes=1) possible)
+s7comm.szl.0131.0006.zugtyp_0,zugtyp_0
+s7comm.szl.0131.0006.zugtyp_0.brcv,Bit 5: BRCV
+s7comm.szl.0131.0006.zugtyp_0.bsend,Bit 4: BSEND
+s7comm.szl.0131.0006.zugtyp_0.get,Bit 6: GET
+s7comm.szl.0131.0006.zugtyp_0.put,Bit 7: PUT
+s7comm.szl.0131.0006.zugtyp_0.rcv,Bit 3: RCV
+s7comm.szl.0131.0006.zugtyp_0.send,Bit 2: SEND
+s7comm.szl.0131.0006.zugtyp_0.urcv,Bit 1: URCV
+s7comm.szl.0131.0006.zugtyp_0.usend,Bit 0: USEND
+s7comm.szl.0131.0006.zugtyp_1,zugtyp_1
+s7comm.szl.0131.0006.zugtyp_1.initiate,Bit 2: INITIATE
+s7comm.szl.0131.0006.zugtyp_1.print,Bit 0: PRINT
+s7comm.szl.0131.0006.zugtyp_1.resume,Bit 5: RESUME
+s7comm.szl.0131.0006.zugtyp_1.start,Bit 3: START
+s7comm.szl.0131.0006.zugtyp_1.status,Bit 6: STATUS
+s7comm.szl.0131.0006.zugtyp_1.stop,Bit 4: STOP
+s7comm.szl.0131.0006.zugtyp_1.ustatus,Bit 7: USTATUS
+s7comm.szl.0131.0006.zugtyp_1abort,Bit 1: ABORT
+s7comm.szl.0131.0006.zugtyp_2,zugtyp_2
+s7comm.szl.0131.0006.zugtyp_2.alarm,Bit 5: ALARM
+s7comm.szl.0131.0006.zugtyp_2.alarm_8,Bit 6: ALARM_8
+s7comm.szl.0131.0006.zugtyp_2.alarm_8p,Bit 7: ALARM_8P
+s7comm.szl.0131.0006.zugtyp_2.load,Bit 3: LOAD
+s7comm.szl.0131.0006.zugtyp_2.load_me,Bit 4: LOAD_ME
+s7comm.szl.0131.0006.zugtyp_2.pi,Bit 0: PI
+s7comm.szl.0131.0006.zugtyp_2.read,Bit 1: READ
+s7comm.szl.0131.0006.zugtyp_2.write,Bit 2: WRITE
+s7comm.szl.0131.0006.zugtyp_3,zugtyp_3
+s7comm.szl.0131.0006.zugtyp_3.ar_send,Bit 1: AR_SEND
+s7comm.szl.0131.0006.zugtyp_3.bit2_res,Bit 2: Reserved
+s7comm.szl.0131.0006.zugtyp_3.bit3_res,Bit 3: Reserved
+s7comm.szl.0131.0006.zugtyp_3.bit4_res,Bit 4: Reserved
+s7comm.szl.0131.0006.zugtyp_3.bit5_res,Bit 5: Reserved
+s7comm.szl.0131.0006.zugtyp_3.bit6_res,Bit 6: Reserved
+s7comm.szl.0131.0006.zugtyp_3.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0006.zugtyp_3.notify,Bit 0: NOTIFY
+s7comm.szl.0131.0006.zugtyp_4,zugtyp_4
+s7comm.szl.0131.0006.zugtyp_5,zugtyp_5
+s7comm.szl.0131.0006.zugtyp_6,zugtyp_6
+s7comm.szl.0131.0006.zugtyp_6.i_abort,Bit 7: I_ABORT
+s7comm.szl.0131.0006.zugtyp_6.i_get,Bit 5: I_GET
+s7comm.szl.0131.0006.zugtyp_6.i_put,Bit 6: I_PUT
+s7comm.szl.0131.0006.zugtyp_6.x_abort,Bit 4: X_ABORT
+s7comm.szl.0131.0006.zugtyp_6.x_get,Bit 2: X_GET
+s7comm.szl.0131.0006.zugtyp_6.x_put,Bit 3: X_PUT
+s7comm.szl.0131.0006.zugtyp_6.x_rcv,Bit 1: X_RCV
+s7comm.szl.0131.0006.zugtyp_6.x_send,Bit 0: X_SEND
+s7comm.szl.0131.0006.zugtyp_7,zugtyp_7
+s7comm.szl.0131.0006.zugtyp_7.alarm_s,Bit 2: ALARM_S
+s7comm.szl.0131.0006.zugtyp_7.alarm_sc,Bit 3: ALARM_SC
+s7comm.szl.0131.0006.zugtyp_7.alarm_sq,Bit 1: ALARM_SQ
+s7comm.szl.0131.0006.zugtyp_7.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0006.zugtyp_7.control,Bit 6: CONTROL
+s7comm.szl.0131.0006.zugtyp_7.dis_msg,Bit 5: DIS_MSG
+s7comm.szl.0131.0006.zugtyp_7.en_msg,Bit 4: EN_MSG
+s7comm.szl.0131.0006.zugtyp_7.scan_snd,Bit 0: SCAN_SND
+s7comm.szl.0131.0007.alarm,alarm (Communication interrupt yes/no)
+s7comm.szl.0131.0007.ek_1,ek_1 (Maximum number of GD packets to be received per GD circle of the CPU)
+s7comm.szl.0131.0007.ek_2,ek_2 (Maximum number of GD packets to be received for all GD circles of the CPU)
+s7comm.szl.0131.0007.funkt_0,funkt_0 (Available GD functions)
+s7comm.szl.0131.0007.funkt_0.bit3_res,Reserved
+s7comm.szl.0131.0007.funkt_0.bit4_res,Reserved
+s7comm.szl.0131.0007.funkt_0.bit5_res,Reserved
+s7comm.szl.0131.0007.funkt_0.bit6_res,Reserved
+s7comm.szl.0131.0007.funkt_0.bit7_res,Reserved
+s7comm.szl.0131.0007.funkt_0.cyclic,Cyclic
+s7comm.szl.0131.0007.funkt_0.gd_rcv,GD_RCV
+s7comm.szl.0131.0007.funkt_0.gd_snd,GD_SND
+s7comm.szl.0131.0007.funkt_1,funkt_1 (Reserved)
+s7comm.szl.0131.0007.index,Index
+s7comm.szl.0131.0007.kons,kons (Consistent length in bytes)
+s7comm.szl.0131.0007.kreis,kreis (Maximum number of GD groups of the CPU)
+s7comm.szl.0131.0007.len_1,len_1 (Maximum length of a GD packet)
+s7comm.szl.0131.0007.len_2,len_2 (Maximum length of a GD packet header)
+s7comm.szl.0131.0007.len_3,len_3 (Length of the object description header)
+s7comm.szl.0131.0007.mode,mode
+s7comm.szl.0131.0007.mode.comm_bus,Communication bus
+s7comm.szl.0131.0007.mode.pl_mpi,Party line/MPI
+s7comm.szl.0131.0007.obj_0,obj_0 (Addressable objects)
+s7comm.szl.0131.0007.obj_0.bit6_res,Reserved
+s7comm.szl.0131.0007.obj_0.bit7_res,Reserved
+s7comm.szl.0131.0007.obj_0.c,C
+s7comm.szl.0131.0007.obj_0.db,DB
+s7comm.szl.0131.0007.obj_0.m,M
+s7comm.szl.0131.0007.obj_0.pii,PII
+s7comm.szl.0131.0007.obj_0.piq,PIQ
+s7comm.szl.0131.0007.obj_0.t,T
+s7comm.szl.0131.0007.obj_1,obj_1 (Reserved)
+s7comm.szl.0131.0007.proj,proj (Re-configuration possible in RUN yes/no)
+s7comm.szl.0131.0007.rec,rec (Minimum scan rate for receiving)
+s7comm.szl.0131.0007.res,res (Reserved)
+s7comm.szl.0131.0007.sen,sen (Minimum scan rate for sending)
+s7comm.szl.0131.0007.sk_1,sk_1 (Maximum number of GD packets to be sent per GD circle of the CPU)
+s7comm.szl.0131.0007.sk_2,sk_2 (Maximum number of GD packets to be sent for all GD circles of the CPU)
+s7comm.szl.0131.0007.time,time (Time monitoring when receiving yes/no)
+s7comm.szl.0131.0008.address,address (Address register added to basic time when AR 1 or AR 2 addressed) time value
+s7comm.szl.0131.0008.address_tb,address (Address register added to basic time when AR 1 or AR 2 addressed) time base
+s7comm.szl.0131.0008.akku,"akku (Accumulators added to basic time when ACCU 1, 2 addressed) time value"
+s7comm.szl.0131.0008.akku_tb,"akku (Accumulators added to basic time when ACCU 1, 2 addressed) time base"
+s7comm.szl.0131.0008.ba_stali1,ba_stali1 (Basic time for a status list ID of group 1) time value
+s7comm.szl.0131.0008.ba_stali1_tb,ba_stali1 (Basic time for a status list ID of group 1) time base
+s7comm.szl.0131.0008.ba_stali2,ba_stali2 (Basic time for a status list ID of group 2) time value
+s7comm.szl.0131.0008.ba_stali2_tb,ba_stali2 (Basic time for a status list ID of group 2) time base
+s7comm.szl.0131.0008.ba_stali3,ba_stali3 (Basic time for a status list ID of group 3) time value
+s7comm.szl.0131.0008.ba_stali3_tb,ba_stali3 (Basic time for a status list ID of group 3) time base
+s7comm.szl.0131.0008.db,db (Time for one variable address 'data block DB') time value
+s7comm.szl.0131.0008.db_tb,db (Time for one variable address 'data block DB') time base
+s7comm.szl.0131.0008.dbreg,dbreg (DB register added to basic time when DB register addressed) time value
+s7comm.szl.0131.0008.dbreg_tb,dbreg (DB register added to basic time when DB register addressed) time base
+s7comm.szl.0131.0008.ea,ea (Time for one variable address 'input' or 'output') time value
+s7comm.szl.0131.0008.ea_tb,ea (Time for one variable address 'input' or 'output') time base
+s7comm.szl.0131.0008.index,Index
+s7comm.szl.0131.0008.last_1,last_1 (Basic overhead for status block) time value
+s7comm.szl.0131.0008.last_1_tb,last_1 (Basic overhead for status block) time base
+s7comm.szl.0131.0008.last_2,last_2 (Basic overhead for monitor variables) time value
+s7comm.szl.0131.0008.last_2_tb,last_2 (Basic overhead for monitor variables) time base
+s7comm.szl.0131.0008.last_3,last_3 (Basic overhead for modify variables) time value
+s7comm.szl.0131.0008.last_3_tb,last_3 (Basic overhead for modify variables) time base
+s7comm.szl.0131.0008.ld,ld (Time for one variable address 'ADB' or 'local data') time value
+s7comm.szl.0131.0008.ld_tb,ld (Time for one variable address 'ADB' or 'local data') time base
+s7comm.szl.0131.0008.merker,merker (Time for one variable address 'memory bit') time value
+s7comm.szl.0131.0008.merker_tb,merker (Time for one variable address 'memory bit') time base
+s7comm.szl.0131.0008.reg,reg (Time for one variable address 'register') time value
+s7comm.szl.0131.0008.reg_tb,reg (Time for one variable address 'register') time base
+s7comm.szl.0131.0008.res,res (Reserved)
+s7comm.szl.0131.0008.tz,tz (Time for one variable address 'timer' or 'counter') time value
+s7comm.szl.0131.0008.tz_tb,tz (Time for one variable address 'timer' or 'counter') time base
+s7comm.szl.0131.0009.abw_5v,abw_5v (Clock deviation in ms/day in 5V operation)
+s7comm.szl.0131.0009.abw_puf,abw_puf (Clock deviation in ms/day when backed up)
+s7comm.szl.0131.0009.anz_bsz,anz_bsz (Number of run-time meters)
+s7comm.szl.0131.0009.index,Index
+s7comm.szl.0131.0009.res1,res1 (Reserved)
+s7comm.szl.0131.0009.res2,res2 (Reserved)
+s7comm.szl.0131.0009.sync_k,sync_k (Time synchronization C bus)
+s7comm.szl.0131.0009.sync_k.master,Capable of being master for time-of-day synchronization
+s7comm.szl.0131.0009.sync_k.neutral,Time-of-day synchronization neutral
+s7comm.szl.0131.0009.sync_k.slave,Capable of being slave for time-of-day synchronization
+s7comm.szl.0131.0009.sync_mfi,sync_k (Time synchronization via MFI)
+s7comm.szl.0131.0009.sync_mfi.master,Capable of being master for time-of-day synchronization
+s7comm.szl.0131.0009.sync_mfi.neutral,Time-of-day synchronization neutral
+s7comm.szl.0131.0009.sync_mfi.slave,Capable of being slave for time-of-day synchronization
+s7comm.szl.0131.0009.sync_mpi,sync_mpi (Time synchronization via MPI)
+s7comm.szl.0131.0009.sync_mpi.master,Capable of being master for time-of-day synchronization
+s7comm.szl.0131.0009.sync_mpi.neutral,Time-of-day synchronization neutral
+s7comm.szl.0131.0009.sync_mpi.slave,Capable of being slave for time-of-day synchronization
+s7comm.szl.0131.0010.ber_meld_1,ber_meld_1
+s7comm.szl.0131.0010.ber_meld_1.bit4_res,Bit 4: Reserved
+s7comm.szl.0131.0010.ber_meld_1.bit5_res,Bit 5: Reserved
+s7comm.szl.0131.0010.ber_meld_1.bit6_res,Bit 6: Reserved
+s7comm.szl.0131.0010.ber_meld_1.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0010.ber_meld_1.db,Bit 3: DB
+s7comm.szl.0131.0010.ber_meld_1.m,Bit 2: M
+s7comm.szl.0131.0010.ber_meld_1.pii,Bit 0: PII
+s7comm.szl.0131.0010.ber_meld_1.piq,Bit 1: PIQ
+s7comm.szl.0131.0010.ber_meld_2,ber_meld_2
+s7comm.szl.0131.0010.ber_zus_1,ber_zus_1
+s7comm.szl.0131.0010.ber_zus_1.bit4_res,Bit 4: Reserved
+s7comm.szl.0131.0010.ber_zus_1.bit5_res,Bit 5: Reserved
+s7comm.szl.0131.0010.ber_zus_1.bit6_res,Bit 6: Reserved
+s7comm.szl.0131.0010.ber_zus_1.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0010.ber_zus_1.db,Bit 3: DB
+s7comm.szl.0131.0010.ber_zus_1.m,Bit 2: M
+s7comm.szl.0131.0010.ber_zus_1.pii,Bit 0: PII
+s7comm.szl.0131.0010.ber_zus_1.piq,Bit 1: PIQ
+s7comm.szl.0131.0010.ber_zus_2,ber_zus_2
+s7comm.szl.0131.0010.funk_1,funk_1
+s7comm.szl.0131.0010.funk_1.bit4_res,Bit 4: Reserved
+s7comm.szl.0131.0010.funk_1.bit5_res,Bit 5: Reserved
+s7comm.szl.0131.0010.funk_1.bit6_res,Bit 6: Reserved
+s7comm.szl.0131.0010.funk_1.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0010.funk_1.grp_status_msg,Bit 0: Group status messages exist
+s7comm.szl.0131.0010.funk_1.notify_alarm,"Bit 2: NOTIFY, ALARM, ALARM_8P, ALARM_8, (multicast) possible"
+s7comm.szl.0131.0010.funk_1.scan_possible,Bit 1: Scan possible
+s7comm.szl.0131.0010.funk_1.send_arc,Bit 3: Sending archive data possible
+s7comm.szl.0131.0010.funk_2,funk_2
+s7comm.szl.0131.0010.index,Index
+s7comm.szl.0131.0010.res,res (Reserved)
+s7comm.szl.0131.0010.typ_zus_1,typ_zus_1
+s7comm.szl.0131.0010.typ_zus_1.array_char,Bit 6: Array of char[16]
+s7comm.szl.0131.0010.typ_zus_1.bit,Bit 0: Bit
+s7comm.szl.0131.0010.typ_zus_1.bit7_res,Bit 7: Reserved
+s7comm.szl.0131.0010.typ_zus_1.byte,Bit 1: Byte
+s7comm.szl.0131.0010.typ_zus_1.counter,Bit 5: Counter
+s7comm.szl.0131.0010.typ_zus_1.dword,Bit 3: DWord
+s7comm.szl.0131.0010.typ_zus_1.timer,Bit 4: Timer
+s7comm.szl.0131.0010.typ_zus_1.word,Bit 2: Word
+s7comm.szl.0131.0010.typ_zus_2,typ_zus_2
+s7comm.szl.0132.0001.auf,auf (Current number of connections established by proj)
+s7comm.szl.0132.0001.free,free (Number of free connections)
+s7comm.szl.0132.0001.index,Index
+s7comm.szl.0132.0001.last,last (Maximum selected communication load of the CPU in %)
+s7comm.szl.0132.0001.proj,proj (Current number of configured connections)
+s7comm.szl.0132.0001.res,res (Reserved)
+s7comm.szl.0132.0001.res_os,res os (Guaranteed number of OS connections)
+s7comm.szl.0132.0001.res_pg,res pg (Guaranteed number of PG connections)
+s7comm.szl.0132.0001.u_os,u os (Current number of OS connections)
+s7comm.szl.0132.0001.u_pg,u pg (Current number of PG connections)
+s7comm.szl.0132.0001.used,used (Number of free connections used)
+s7comm.szl.0132.0002.anz,anz (Number of initialized test and installation jobs)
+s7comm.szl.0132.0002.index,Index
+s7comm.szl.0132.0002.res,res (Reserved)
+s7comm.szl.0132.0004.bart_sch,bart_sch (Position of the mode switch)
+s7comm.szl.0132.0004.crst_wrst,crst_wrst (Setting of the CRST/WRST switch)
+s7comm.szl.0132.0004.index,Index
+s7comm.szl.0132.0004.ken_f,ken_f (Reserved)
+s7comm.szl.0132.0004.ken_rel,ken_rel (ID for valid version identifications/checksums)
+s7comm.szl.0132.0004.ken_ver1_awp,ken_ver1_awp (Version ID/checksum 1 of the user program)
+s7comm.szl.0132.0004.ken_ver1_hw,ken_ver1_hw (Version ID/checksum 1 of the hardware configuration)
+s7comm.szl.0132.0004.ken_ver2_awp,ken_ver2_awp (Version ID/checksum 2 of the user program)
+s7comm.szl.0132.0004.ken_ver2_hw,ken_ver2_hw (Version ID/checksum 2 of the hardware configuration)
+s7comm.szl.0132.0004.key,"key (Protection level for the key switch, possible values: 1,2 or 3)"
+s7comm.szl.0132.0004.param,"param (Assigned protection level, possible values: 0, 1, 2 or 3)"
+s7comm.szl.0132.0004.real,"real (Valid protection level of the CPU, possible values: 1, 2 or 3)"
+s7comm.szl.0132.0004.res,res (Reserved)
+s7comm.szl.0132.0005.erw,erw (Extended functions)
+s7comm.szl.0132.0005.index,Index
+s7comm.szl.0132.0005.ltmerz,ltmerz (Generation of status message active)
+s7comm.szl.0132.0005.moeg,moeg (Sending user-defined diagnostic messages currently possible)
+s7comm.szl.0132.0005.res,res (Reserved)
+s7comm.szl.0132.0005.send,send (Automatic sending)
+s7comm.szl.0132.0006.anz_inst,anz_inst (Number of loaded SFB instances)
+s7comm.szl.0132.0006.anz_multicast,anz_multicast (Number of blocks used for multicast)
+s7comm.szl.0132.0006.anz_schnell,anz_schnell (Reserved)
+s7comm.szl.0132.0006.index,Index
+s7comm.szl.0132.0006.res,res (Reserved)
+s7comm.szl.0132.0006.used_0,used_0 (Blocks used)
+s7comm.szl.0132.0006.used_1,used_1 (Blocks used)
+s7comm.szl.0132.0006.used_2,used_2 (Blocks used)
+s7comm.szl.0132.0006.used_3,used_3 (Blocks used)
+s7comm.szl.0132.0006.used_4,used_4 (Blocks used)
+s7comm.szl.0132.0006.used_5,used_5 (Blocks used)
+s7comm.szl.0132.0006.used_6,used_6 (Blocks used)
+s7comm.szl.0132.0006.used_7,used_7 (Blocks used)
+s7comm.szl.0132.0008.clock0,clock 0 (Run-time meter 0: Time in hours)
+s7comm.szl.0132.0008.clock1,clock 1 (Run-time meter 1: Time in hours)
+s7comm.szl.0132.0008.clock2,clock 2 (Run-time meter 2: Time in hours)
+s7comm.szl.0132.0008.clock3,clock 3 (Run-time meter 3: Time in hours)
+s7comm.szl.0132.0008.clock4,clock 4 (Run-time meter 4: Time in hours)
+s7comm.szl.0132.0008.clock5,clock 5 (Run-time meter 5: Time in hours)
+s7comm.szl.0132.0008.clock6,clock 6 (Run-time meter 6: Time in hours)
+s7comm.szl.0132.0008.clock7,clock 7 (Run-time meter 7: Time in hours)
+s7comm.szl.0132.0008.index,Index
+s7comm.szl.0132.0008.korr,korr (Correction factor for time-of-day)
+s7comm.szl.0132.0008.res,res (Reserved)
+s7comm.szl.0132.0008.time,time (Current date and time)
+s7comm.szl.0132.0008.zykl,zykl (Cycle time of the synchronization frames)
+s7comm.szl.0132.000b.bszl_0,bszl_0 (Status of run-time meter)
+s7comm.szl.0132.000b.bszl_1,bszl_1 (Reserved)
+s7comm.szl.0132.000b.bszu_0,bszu_0 (Overflow of run-time meter)
+s7comm.szl.0132.000b.bszu_1,bszu_1 (Reserved)
+s7comm.szl.0132.000b.clock0,clock 0 (Run-time meter 0: Time in hours)
+s7comm.szl.0132.000b.clock1,clock 1 (Run-time meter 1: Time in hours)
+s7comm.szl.0132.000b.clock2,clock 2 (Run-time meter 2: Time in hours)
+s7comm.szl.0132.000b.clock3,clock 3 (Run-time meter 3: Time in hours)
+s7comm.szl.0132.000b.clock4,clock 4 (Run-time meter 4: Time in hours)
+s7comm.szl.0132.000b.clock5,clock 5 (Run-time meter 5: Time in hours)
+s7comm.szl.0132.000b.clock6,clock 6 (Run-time meter 6: Time in hours)
+s7comm.szl.0132.000b.clock7,clock 7 (Run-time meter 7: Time in hours)
+s7comm.szl.0132.000b.index,Index
+s7comm.szl.0132.000b.res,res (Reserved)
+s7comm.szl.0132.000c.bszl_0,bszl_0 (Status of run-time meter)
+s7comm.szl.0132.000c.bszl_1,bszl_1 (Reserved)
+s7comm.szl.0132.000c.bszu_0,bszu_0 (Overflow of run-time meter)
+s7comm.szl.0132.000c.bszu_1,bszu_1 (Reserved)
+s7comm.szl.0132.000c.clock10,clock 10 (Run-time meter 10: Time in hours)
+s7comm.szl.0132.000c.clock11,clock 11 (Run-time meter 11: Time in hours)
+s7comm.szl.0132.000c.clock12,clock 12 (Run-time meter 12: Time in hours)
+s7comm.szl.0132.000c.clock13,clock 13 (Run-time meter 13: Time in hours)
+s7comm.szl.0132.000c.clock14,clock 14 (Run-time meter 14: Time in hours)
+s7comm.szl.0132.000c.clock15,clock 15 (Run-time meter 15: Time in hours)
+s7comm.szl.0132.000c.clock8,clock 8 (Run-time meter 8: Time in hours)
+s7comm.szl.0132.000c.clock9,clock 9 (Run-time meter 9: Time in hours)
+s7comm.szl.0132.000c.index,Index
+s7comm.szl.0132.000c.res,res (Reserved)
+s7comm.szl.0132.0010.maxanz_arch,maxanz_arch (Maximum number of archives for 'Send Archive')
+s7comm.szl.0424.0000.ae,ae
+s7comm.szl.0424.0000.anlinfo1,anlinfo1
+s7comm.szl.0424.0000.anlinfo2,anlinfo2
+s7comm.szl.0424.0000.anlinfo3,anlinfo3
+s7comm.szl.0424.0000.anlinfo4,anlinfo4
+s7comm.szl.0424.0000.bzu_id,bzu-id
+s7comm.szl.0424.0000.bzu_id.pre,Previous mode
+s7comm.szl.0424.0000.bzu_id.req,Requested mode
+s7comm.szl.0424.0000.ereig,ereig
+s7comm.szl.0424.0000.res,res (Reserved)
+s7comm.szl.0424.0000.time,time
+s7comm.szl.xx96.xxxx.api,API (Configured Application Profile)
+s7comm.szl.xx96.xxxx.berbgbr,Ber_bgbr (Area ID/module width)
+s7comm.szl.xx96.xxxx.berbgbr.areaid,Area ID
+s7comm.szl.xx96.xxxx.berbgbr.bit3_res,Reserved
+s7comm.szl.xx96.xxxx.berbgbr.bit7_res,Reserved
+s7comm.szl.xx96.xxxx.berbgbr.width,Module width
+s7comm.szl.xx96.xxxx.eastat,I/O status
+s7comm.szl.xx96.xxxx.eastat.ciractive,CiR event active
+s7comm.szl.xx96.xxxx.eastat.moddisabl,Module disabled
+s7comm.szl.xx96.xxxx.eastat.moddisrupt,Module disrupted
+s7comm.szl.xx96.xxxx.eastat.modexists,Module exists
+s7comm.szl.xx96.xxxx.eastat.modlocseg,Module in local bus segment
+s7comm.szl.xx96.xxxx.eastat.modmaintdem,Module maintenance demand
+s7comm.szl.xx96.xxxx.eastat.modmaintreq,Module maintenance required
+s7comm.szl.xx96.xxxx.eastat.modnotav,Module not available
+s7comm.szl.xx96.xxxx.eastat.res,Reserved
+s7comm.szl.xx96.xxxx.eastat.statproblem,Problem on station
+s7comm.szl.xx96.xxxx.expactid,Expected/actual identifier
+s7comm.szl.xx96.xxxx.logadr.adr,logadr (Address of the module)
+s7comm.szl.xx96.xxxx.logadr.area,logadr (Area)
+s7comm.szl.xx96.xxxx.offset,Offset (Offset in the user data address range of the associated module)
+s7comm.szl.xx96.xxxx.reserve1,Reserve 1
+s7comm.szl.xx96.xxxx.reserve2,res (Reserved)
+s7comm.szl.xx96.xxxx.slot,Slot (Slot number)
+s7comm.szl.xx96.xxxx.solltyp1,Solltyp1 (Expected Type: Manufacturer no. or profile identification)
+s7comm.szl.xx96.xxxx.solltyp2,Solltyp2 (Device)
+s7comm.szl.xx96.xxxx.solltyp3,Solltyp3 (Sequential number or profile index)
+s7comm.szl.xx96.xxxx.solltyp4_5,Solltyp4_5 (Submodule identification)
+s7comm.szl.xx96.xxxx.solltyp6_7,Solltyp6_7 (Interface module identification)
+s7comm.szl.xx96.xxxx.station,Station (Rack no./station number/device number)
+s7comm.szl.xx96.xxxx.subslot,Subslot (Interface module slot)
+s7comm.szl.xx96.xxxx.system,System (Identifier for the central module/DP master system ID /PROFINET IO system ID)
+s7comm.szl.xy11.0001.anz,MlfB (Order number of the module)
+s7comm.szl.xy11.0001.ausbe,Ausbe (Release of the PG description file)
+s7comm.szl.xy11.0001.ausbg,Ausbg (Version of the module or release of the operating system)
+s7comm.szl.xy11.0001.bgtyp,BGTyp (Module type ID)
+s7comm.szl.xy11.0001.index,Index
+s7comm.szl.xy12.0x00.charac,Characteristic
+s7comm.szl.xy12.xx9x.station_info,Station
+s7comm.szl.xy14.000x.code,Code (Memory type)
+s7comm.szl.xy14.000x.index,Index
+s7comm.szl.xy14.000x.quantity,Quantity (Number of elements of the system area)
+s7comm.szl.xy14.000x.reman,Reman (Number of retentive elements)
+s7comm.szl.xy15.000x.index,Index
+s7comm.szl.xy15.000x.maxabl,MaxAbl (Maximum length of the work memory part of a block in bytes)
+s7comm.szl.xy15.000x.maxanz,MaxAnz (Maximum number of blocks of the type)
+s7comm.szl.xy15.000x.maxlng,MaxLng (Maximum total size of the object to be loaded in Kbytes)
+s7comm.szl.xy22.00xx.al1,al1 (Processing identifiers)
+s7comm.szl.xy22.00xx.al1.eidbl,Entry in diagnostic buffer locked
+s7comm.szl.xy22.00xx.al1.evpd,Interrupt event is caused by parameters disabled
+s7comm.szl.xy22.00xx.al1.iel,Interrupt event as per SFC 39 locked
+s7comm.szl.xy22.00xx.al1.ioil,Interrupt OB is loaded
+s7comm.szl.xy22.00xx.al1.ioilbt,Interrupt OB is locked by TIS
+s7comm.szl.xy22.00xx.al1.isia,Interrupt source is active
+s7comm.szl.xy22.00xx.al2,al2 (Reaction with not loaded/locked OB)
+s7comm.szl.xy22.00xx.al2.giee,Generate interrupt event error
+s7comm.szl.xy22.00xx.al2.gism,CPU goes into STOP mode
+s7comm.szl.xy22.00xx.al2.iod,Interrupt only discarded
+s7comm.szl.xy22.00xx.al2.lis,Lock interrupt source
+s7comm.szl.xy22.00xx.al3,al3 (Discarded by TIS functions)
+s7comm.szl.xy22.00xx.info,Start info for the given OB
+s7comm.szl.xy74.0000.cpu_led_id,cpu_led_id
+s7comm.szl.xy74.0000.cpu_led_id.cputype,"Bit 3: CPU Type (0=Standby, 1=Master)"
+s7comm.szl.xy74.0000.cpu_led_id.id,Byte 1: LED ID
+s7comm.szl.xy74.0000.cpu_led_id.rackno,"Bits 0, 1, 2: Rack number"
+s7comm.szl.xy74.0000.led_blink,Flashing status of the LED
+s7comm.szl.xy74.0000.led_on,Status of the LED
+s7comm.tiap.item.area1,1200 sym root area 1
+s7comm.tiap.item.area2,1200 sym root area 2
+s7comm.tiap.item.area2unknown,1200 sym root area 2 unknown
+s7comm.tiap.item.crc,1200 sym CRC
+s7comm.tiap.item.dbnumber,1200 sym root DB number
+s7comm.tiap.item.lid_flags,LID flags
+s7comm.tiap.item.reserved1,1200 sym Reserved
+s7comm.tiap.item.substructure,Substructure
+s7comm.tiap.item.value,Value
+s7comm.tis.accu1,Register ACCU1
+s7comm.tis.accu2,Register ACCU2
+s7comm.tis.accu3,Register ACCU3
+s7comm.tis.accu4,Register ACCU4
+s7comm.tis.answersize,TIS Parameter 4 - Answer size
+s7comm.tis.ar1,Register AR1
+s7comm.tis.ar2,Register AR2
+s7comm.tis.blockstat.data,Blockstatus data
+s7comm.tis.blockstat.flagsunknown,Blockstat flags
+s7comm.tis.blockstat.line_address,Address
+s7comm.tis.blockstat.number_of_lines,Number of lines
+s7comm.tis.blockstat.reserved,Blockstatus Reserved / Unknown
+s7comm.tis.breakpoint.address,Breakpoint code address
+s7comm.tis.breakpoint.blocknumber,Breakpoint block number
+s7comm.tis.breakpoint.blocktype,Breakpoint block type
+s7comm.tis.breakpoint.reserved,Breakpoint Reserved / Unknown
+s7comm.tis.bstack.neting_depth,BSTACK nesting depth
+s7comm.tis.bstack.reserved,BSTACK Reserved / Unknown
+s7comm.tis.callenv_cond,Call condition
+s7comm.tis.callenv_cond_blockaddress,Call condition code address
+s7comm.tis.callenv_cond_blocknumber,Call condition block number
+s7comm.tis.callenv_cond_blocktype,Call condition block type
+s7comm.tis.callenv_setup,Call environment setup
+s7comm.tis.continued.address,Continued code address
+s7comm.tis.continued.blocknumber,Continued block number
+s7comm.tis.continued.blocktype,Continued block type
+s7comm.tis.datasize,TIS Data size
+s7comm.tis.db1.number,Register DB1 block number
+s7comm.tis.db1.type,Register DB1 content type
+s7comm.tis.db2.number,Register DB2 block number
+s7comm.tis.db2.type,Register DB2 content type
+s7comm.tis.exithold_res1,Exit HOLD Reserved / Unknown
+s7comm.tis.exithold_until,Exit HOLD state until
+s7comm.tis.interrupted.address,Interrupted code address
+s7comm.tis.interrupted.blocknumber,Interrupted block number
+s7comm.tis.interrupted.blocktype,Interrupted block type
+s7comm.tis.interrupted.priorityclass,Interrupted priority class
+s7comm.tis.istack.reserved,ISTACK Reserved / Unknown
+s7comm.tis.job.function,Job function
+s7comm.tis.job.reserved,Job Reserved / Unknown
+s7comm.tis.job.response_seq_num,Job reference sequence number
+s7comm.tis.lstack.data,Localdata stack data
+s7comm.tis.lstack.reserved,LSTACK Reserved / Unknown
+s7comm.tis.lstack.size,Localdata stack size
+s7comm.tis.param1,TIS Parameter 1
+s7comm.tis.param2,TIS Parameter 2 - Trigger type
+s7comm.tis.param3,TIS Parameter 3 - Trigger frequency
+s7comm.tis.param5,TIS Parameter 5
+s7comm.tis.param6,TIS Parameter 6
+s7comm.tis.param7,TIS Parameter 7
+s7comm.tis.param8,TIS Parameter 8
+s7comm.tis.param9,TIS Parameter 9
+s7comm.tis.parameter,TIS Parameter
+s7comm.tis.parametersize,TIS Parameter size
+s7comm.tis.res.param1,TIS Response Parameter 1
+s7comm.tis.res.param2,TIS Response Parameter 2
+s7comm.tis.stw,Register STW
+s7comm.varstat.item_count,Item count
+s7comm.varstat.req.bitpos,Bitposition
+s7comm.varstat.req.db_number,DB number
+s7comm.varstat.req.memory_area,Memory area
+s7comm.varstat.req.repetition_factor,Repetition factor
+s7comm.varstat.req.startaddress,Startaddress
+s7comm.varstat.trgevent,TIS Parameter 10 - Trigger event
+s7comm.varstat.unknown,Unknown byte(s) varstat
+s7comm.vartab.byte_count,Byte count
+s7comm.vartab.data_type,Type of data
+s7comm.vartab.item_count,Item count
+s7comm.vartab.req.db_number,DB number
+s7comm.vartab.req.memory_area,Memory area
+s7comm.vartab.req.repetition_factor,Repetition factor
+s7comm.vartab.req.startaddress,Startaddress
+s7comm.vartab.unknown,Unknown byte(s) vartab

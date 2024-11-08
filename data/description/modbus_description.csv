@@ -1,0 +1,72 @@
+AND mask
+Bit Count
+Bit Number
+Bit Value
+Byte Count
+Byte Count (16-bit)
+Conformity Level
+Data
+"Invalid decoding options, register data not a multiple of 4!"
+CHAR
+Slave Character Overrun Count
+CRC Error Count
+Exception Error Count
+Total Message Count
+Clear Counters & Diag Register Echo
+Slave No Response Count
+Restart Communication Option
+Diagnostic Register Contents
+Echo Data
+Request Data
+Slave Device Busy Count
+Slave Message Count
+Slave NAK Count
+Diagnostic Code
+Event Count
+Message Count
+Broadcast Received
+Character Overrun
+Communication Error
+Currently in Listen Only Mode
+Read Exception Sent
+Slave Abort Exception Sent
+Slave Busy Exception Sent
+Slave Program NAK Exception Sent
+Write Timeout Error Occurred
+Status
+Event
+Exception Code
+Function Code
+MEI type
+More Follows
+Next Object ID
+Number of Objects
+Object ID
+Object String Value
+Object Value
+Object length
+OR mask
+Padding
+Read Device ID
+Read Reference Number
+Read Word Count
+Reference Number
+Reference Number (32 bit)
+Reference Type
+Register Value (16-bit)
+Register Value (32-bit)
+Register (IEEE Float)
+Register (Modicon Float)
+Register (UINT16)
+Register (UINT32)
+Register Number
+Register Value (IEEE Float)
+Register Value (INT16)
+Register Value (INT32)
+Register Value (UINT16)
+Register Value (UINT32)
+Request Frame
+Time from request
+Word Count
+Write Reference Number
+Write Word Count

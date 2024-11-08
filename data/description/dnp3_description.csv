@@ -1,0 +1,164 @@
+Application Chunk
+Expert Info
+Data Chunk
+Data Chunk checksum
+Data Chunk Checksum Status
+Data Chunk length
+Data Link Header Checksum Status
+Address
+Value (two bit)
+Online
+Restart
+Comm Fail
+Remote Force
+Local Force
+Over-Range
+Reference Check
+Reserved
+Value (16 bit)
+Value (double)
+Value (float)
+Output Value (16 bit)
+Output (double)
+Output Value (float)
+Chatter Filter
+Point Value
+Value (bit)
+Commanded State
+Counter (16 bit)
+Confirm
+Count
+Application Control
+Control Status
+Roll-Over
+Discontinuity
+Device Attribute Double Value
+Device Attribute Float Value
+Device Attribute 16-Bit Integer Value
+Device Attribute 32-Bit Integer Value
+Device Attribute 8-Bit Integer Value
+Device Attribute Length
+Device Attribute 16-Bit Unsigned Integer Value
+Device Attribute 32-Bit Unsigned Integer Value
+Device Attribute 8-Bit Unsigned Integer Value
+Value
+Data Type
+File Authentication Key
+File Block Number
+File Data
+File Handle
+File Last Block
+File Max Block Size
+File Control Mode
+Permissions
+Execute permission for group
+Execute permission for owner
+Execute permission for world
+Read permission for group
+Read permission for owner
+Read permission for world
+Write permission for group
+Write permission for owner
+Write permission for world
+File Request Identifier
+File Size
+File Control Status
+File Name
+File String Length
+File String Offset
+Final
+First
+DNP3.0 AL Fragment Data
+DNP 3.0 AL Fragment
+Fragment count
+Defragmentation error
+Multiple tail fragments found
+Fragment overlap
+Conflicting data in fragment overlap
+Reassembled DNP length
+Reassembled PDU In Frame
+Fragment too long
+DNP 3.0 AL Fragments
+Application Layer Function Code
+Internal Indications
+Broadcast Msg Rx
+Configuration Corrupt
+Class 1 Data Available
+Class 2 Data Available
+Class 3 Data Available
+Digital Outputs in Local
+Device Trouble
+Event Buffer Overflow
+Function Code not implemented
+Operation Already Executing
+Requested Objects Unknown
+Parameters Invalid or Out of Range
+Device Restart
+Time Sync Required
+Index (8 bit)
+Object
+Qualifier Code
+Index Prefix
+Prefix Code
+Range Code
+Octet String
+Off Time
+On Time
+Point Index
+Object Point Number
+Address (8 bit)
+Quantity (8 bit)
+Start (8 bit)
+Stop (8 bit)
+Relative Timestamp
+Association ID
+Challenge Data
+Challenge Data Length
+Challenge Sequence Number
+Error Code
+Key Change Method
+Key Data
+Key Change Sequence Number
+Key Status
+Key Wrap Algorithm
+MAC Value
+MAC Algorithm
+Reason for Challenge
+Sequence Number
+Encrypted Update Key Data
+Encrypted Update Key Length
+User Number
+User Name
+User name Length
+Sequence
+Size (8 bit)
+Time Delay
+Timestamp
+Unknown Data Chunk
+Unsolicited
+Control
+Queue / Clear Field
+Data Flow Control
+Direction
+Frame Count Bit
+Frame Count Valid
+Operation Type
+Control Function Code
+Primary
+Trip Control Code
+Data Chunk Checksum incorrect
+Destination
+Empty field limit reached.  Potentially malicious packet
+Data Link Header checksum
+Data Link Header Checksum incorrect
+Bad CRC
+IIN Abnormality
+Invalid length
+Length
+Number of items is invalid for normally empty object.  Potentially malicious packet
+Negative number of items
+Source
+Start Bytes
+Transport Control
+Unknown Group 0 Variation
+Unknown Object\Variation
